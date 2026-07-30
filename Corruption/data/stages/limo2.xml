@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosY="400" folder="stages/limo2/" name="limo" zoom="0.9">
+	<sprite x="-120" scroll="0.1" sprite="limoSunset1" y="-50" zoomfactor="0" name="skyBG1"/>
+	<sprite x="-120" scroll="0.1" sprite="limoSunset2" y="-50" zoomfactor="0" name="skyBG2"/>
+	<sprite x="-120" scroll="0.1" sprite="limoSunset3" y="-50" zoomfactor="0" name="skyBG3"/>
+	<sprite x="-200" scroll="0.4" sprite="limo_bg_car1" y="480" zoomfactor="0.55" name="bgLimo1"/>
+	<sprite x="-200" scroll="0.4" sprite="limo_bg_car2" y="480" zoomfactor="0.55" name="bgLimo2"/>
+	<girlfriend x="525.044052427253" y="161.35389046672"/>
+	<sprite x="-120" sprite="limoDrive" y="550" name="limo"/>
+	<boyfriend camxoffset="-300" x="1200" y="-110"/>
+	<dad/>
+</stage>

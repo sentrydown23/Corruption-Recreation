@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="200" flipX="true" isPlayer="true" icon="bf-corrupted-save" color="#E62145">
+	<anim name="idle" anim="C3BF Idle"/>
+	<anim name="singDOWN" anim="C3BF Down" x="-30" y="-25"/>
+	<anim name="singRIGHT" anim="C3BF Right" x="-40" y="-10"/>
+	<anim name="singLEFT" anim="C3BF Left" x="10" y="-5"/>
+	<anim name="singUP" anim="C3BF Up" x="-10" y="15"/>
+</character>

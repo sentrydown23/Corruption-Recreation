@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-50" y="260" sprite="pico/pico-car-3" flipX="true" isPlayer="true" icon="picofull" color="#DA4E49">
+	<anim name="idle" anim="Pico Idle Dance"/>
+	<anim name="singDOWN" anim="Pico Down Note instancia " x="60" y="-85"/>
+	<anim name="singDOWNmiss" anim="Pico Down Note MISS" x="50" y="-85"/>
+	<anim name="singRIGHT" anim="Pico Note Right instancia " x="-90"/>
+	<anim name="singRIGHTmiss" anim="Pico Note Right Miss" x="-90" y="7"/>
+	<anim name="singLEFT" anim="Pico NOTE LEFT instancia " x="50" y="-10"/>
+	<anim name="singLEFTmiss" anim="Pico NOTE LEFT miss" x="44" y="-5"/>
+	<anim name="singUP" anim="pico Up note instancia " x="-95" y="45"/>
+	<anim name="singUPmiss" anim="pico Up note miss" x="-80" y="42"/>
+</character>
