@@ -33,8 +33,8 @@ jobs:
       - name: Read Release Metadata
         id: metadata
         run: |
-          # Read version from release.json inside Corruption/
-          VERSION=$(jq -r '.version' Corruption/release.json)
+          # Read version from release.json
+          VERSION=$(jq -r '.version' release.json)
           echo "VERSION=v$VERSION" >> $GITHUB_OUTPUT
 
           # Read multi-line markdown notes using GitHub's multi-line output delimiter syntax
