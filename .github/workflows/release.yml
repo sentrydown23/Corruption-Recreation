@@ -19,7 +19,7 @@ jobs:
 
       - name: Zip Subfolder
         run: |
-          zip -r corruption.zip corruption/
+          zip -r corruption.zip Corruption
 
       - name: Create Release and Bump Version
         uses: mathieudutour/github-tag-action@v6.2
