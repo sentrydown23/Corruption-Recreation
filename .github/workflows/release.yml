@@ -1,0 +1,42 @@
+name: Release from JSON Config # Thank you Trill for your contributions to my sanity
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Read Release Metadata
+        id: metadata
+        run: |
+          # Read version from release.json
+          VERSION=$(jq -r '.version' release.json)
+          echo "VERSION=v$VERSION" >> $GITHUB_OUTPUT
+
+          # Read multi-line markdown notes using GitHub's multi-line output delimiter syntax
+          echo "NOTES<<EOF" >> $GITHUB_OUTPUT
+          jq -r '.notes' release.json >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Zip Subfolder
+        run: |
+          zip -r corruption-${{ steps.metadata.outputs.VERSION }}.zip Corruption/
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.metadata.outputs.VERSION }}
+          name: Release ${{ steps.metadata.outputs.VERSION }}
+          body: ${{ steps.metadata.outputs.NOTES }}
+          files: corruption-${{ steps.metadata.outputs.VERSION }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
