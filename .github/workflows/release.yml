@@ -1,4 +1,4 @@
-name: Auto Release on Main Push
+name: Release from JSON Config # Thank you Trill for your contributions to my sanity
 
 on:
   push:
@@ -9,31 +9,34 @@ jobs:
   release:
     runs-on: ubuntu-latest
     permissions:
-      contents: write 
+      contents: write
 
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 
+
+      - name: Read Release Metadata
+        id: metadata
+        run: |
+          # Read version from release.json
+          VERSION=$(jq -r '.version' release.json)
+          echo "VERSION=v$VERSION" >> $GITHUB_OUTPUT
+
+          # Read multi-line markdown notes using GitHub's multi-line output delimiter syntax
+          echo "NOTES<<EOF" >> $GITHUB_OUTPUT
+          jq -r '.notes' release.json >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
 
       - name: Zip Subfolder
         run: |
-          zip -r corruption.zip Corruption
+          zip -r corruption-${{ steps.metadata.outputs.VERSION }}.zip Corruption/
 
-      - name: Create Release and Bump Version
-        uses: mathieudutour/github-tag-action@v6.2
-        id: tag_version
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          default_bump: patch 
-
-      - name: Create GitHub Release
+      - name: Publish GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.tag_version.outputs.new_tag }}
-          name: Release ${{ steps.tag_version.outputs.new_tag }}
-          body: ${{ steps.tag_version.outputs.changelog }}
-          files: corruption.zip
+          tag_name: ${{ steps.metadata.outputs.VERSION }}
+          name: Release ${{ steps.metadata.outputs.VERSION }}
+          body: ${{ steps.metadata.outputs.NOTES }}
+          files: corruption-${{ steps.metadata.outputs.VERSION }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
