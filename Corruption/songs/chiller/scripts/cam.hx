@@ -20,6 +20,16 @@ var hudBop:Float = 0.025;
 
 var bop:Bool = false;
 
+function create()
+{
+    blackBox = new FlxSprite(0, 0);
+    blackBox.makeGraphic(5000, 5000, 0xFF000000);
+    blackBox.screenCenter();
+    blackBox.scrollFactor.set(0, 0);
+    blackBox.cameras = [camHUD];
+    add(blackBox);
+}
+
 function postCreate() 
 {
     defaultDisplayRating = false;
@@ -54,9 +64,19 @@ function beatHit(_)
 {
     switch(_)
     {
+        case 4:
+            tweenTo(blackBox, {alpha: 0}, 5);
+
+        case 32, 100, 257:
+            blackBox.alpha = 0; // playtesting headache cure
+
+        case 94:
+            tweenTo(blackBox, {alpha: 1}, 0.3);
+
         case 96:
             bop = true;
             charswingon();
+            tweenTo(blackBox, {alpha: 0}, 0.3);
 
         case 160:
             charswingoff();
@@ -71,6 +91,12 @@ function beatHit(_)
         case 224:
             camswingoff();
             charswingon();
+
+        case 255:
+            tweenTo(blackBox, {alpha: 1}, 0.1);
+
+        case 256:
+            tweenTo(blackBox, {alpha: 0}, 0.1);
 
         case 320:
             charswingoff();

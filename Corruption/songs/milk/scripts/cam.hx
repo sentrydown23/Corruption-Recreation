@@ -21,6 +21,16 @@ var bop:Bool = false;
 
 camZoomingStrength = 0;
 
+function create()
+{
+    blackBox = new FlxSprite(0, 0);
+    blackBox.makeGraphic(5000, 5000, 0xFF000000);
+    blackBox.screenCenter();
+    blackBox.scrollFactor.set(0, 0);
+    blackBox.cameras = [camHUD];
+    add(blackBox);
+}
+
 function postCreate() 
 {
     defaultDisplayRating = false;
@@ -56,12 +66,16 @@ function beatHit(curBeat:Int) {
     // Timeline event triggers
     switch(curBeat)
     {
+        case 1:
+            tweenTo(blackBox, {alpha: 0}, 5);
+
         case 184:
             camswingoff();
             charswingon();
 
         case 216:
             charswingoff();
+            blackBox.alpha = 1;
     }
 
     // Standard Bop (Every 2 beats)
@@ -103,4 +117,12 @@ function camswingoff() {
     // Resets internal clock loops so old drift values vanish instantly
     posTime = 0;
     swingTime = 0;
+}
+
+function tweenTo(object:Dynamic, values:Dynamic, duration:Float, options:Dynamic = null) {
+    if (object != null) {
+        FlxTween.globalManager.cancelTweensOf(object);
+        return FlxTween.tween(object, values, duration, options);
+    }
+    return null;
 }

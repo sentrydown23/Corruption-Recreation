@@ -1,0 +1,41 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="spirit-creepy-box">
+	<!-- All characters -->
+	<char name="senpai" char="senpai" position="left" />
+	<char name="pixelBfGlitch" char="pixelBfGlitch" position="right" />
+
+	<!-- Lines -->
+	<line char="senpai" changeMusic="pixel/LunchboxScary">
+		You know what?
+	</line>
+	<line char="senpai">
+		I'm no longer satisfied with letting you leave this place.
+	</line>
+	<line char="senpai">
+		I am going to KILL you myself.
+	</line>
+	<line char="pixelBfGlitch">
+		Transferal Complete ("bf_soul is now present"); Console.Write("It is only a matter of time. You can't outrun this.");
+	</line>
+	<line char="senpai">
+		...
+	</line>
+	<line char="senpai">
+		I understand now.
+	</line>
+	<line char="senpai">
+		This really is the end of this world, isn't it?
+	</line>
+	<line char="senpai">
+		Very well...
+	</line>
+	<line char="senpai">
+		If that is the case...
+	</line>
+	<line char="senpai">
+		If this is really the end...
+	</line>
+	<line char="senpai">
+		I will be taking you down with me.
+	</line>
+</dialogue>

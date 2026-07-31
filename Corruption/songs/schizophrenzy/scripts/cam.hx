@@ -36,7 +36,6 @@ function postCreate()
     defaultDisplayRating = false;
     defaultDisplayCombo = false;
     minDigitDisplay = -1;
-    startSong();
     camswingon();
 
     camHUD.alpha = 0;

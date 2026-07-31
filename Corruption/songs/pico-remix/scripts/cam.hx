@@ -1,3 +1,14 @@
+function create()
+{
+    blackBox = new FlxSprite(0, 0);
+    blackBox.makeGraphic(5000, 5000, 0xFF000000);
+    blackBox.screenCenter();
+    blackBox.scrollFactor.set(0, 0);
+    blackBox.cameras = [camHUD];
+    add(blackBox);
+    blackBox.alpha = 0;
+}
+
 function postCreate() {
     defaultDisplayRating = false;
     defaultDisplayCombo = false;
@@ -7,4 +18,13 @@ function postCreate() {
 
 function onCountdown(event) {
    event.cancel();
+}
+
+function beatHit(_)
+{
+    switch(_)
+    {
+        case 450:
+            blackBox.alpha = 0;
+    }
 }

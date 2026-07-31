@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#FF78BF",
+	"opponentModeAllowed": true,
+	"icon": "senpai2",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Treacherous Thorns",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 190
+}

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="weebTrees2.png">
+<SubTexture name="weebTrees dance0000" x="0" y="0" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0001" x="327" y="0" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0002" x="654" y="0" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0003" x="981" y="0" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0004" x="0" y="105" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0005" x="327" y="105" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0006" x="654" y="105" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0007" x="981" y="105" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0008" x="0" y="210" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0009" x="327" y="210" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0010" x="654" y="210" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0011" x="981" y="210" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0012" x="0" y="315" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0013" x="327" y="315" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0014" x="654" y="315" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0015" x="981" y="315" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0016" x="0" y="420" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0017" x="327" y="420" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0018" x="654" y="420" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+<SubTexture name="weebTrees dance0019" x="981" y="420" width="327" height="105" frameX="0" frameY="0" frameWidth="327" frameHeight="105" />
+</TextureAtlas>

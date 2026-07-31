@@ -17,6 +17,16 @@ var swingAmount:Float = 2;
 
 var bop:Bool = false;
 
+function create()
+{
+    blackBox = new FlxSprite(0, 0);
+    blackBox.makeGraphic(5000, 5000, 0xFF000000);
+    blackBox.screenCenter();
+    blackBox.scrollFactor.set(0, 0);
+    blackBox.cameras = [camHUD];
+    add(blackBox);
+}
+
 function postCreate() 
 {
     defaultDisplayRating = false;
@@ -33,6 +43,8 @@ function beatHit(_)
 {
     switch(_)
     {
+        case 1:
+            tweenTo(blackBox, {alpha: 0}, 7);
         case 64:
             bop = true;
         
@@ -50,6 +62,7 @@ function beatHit(_)
 
         case 384:
             bop = false;
+            tweenTo(blackBox, {alpha: 1}, 13);
     }
 
     if (bop) {
@@ -60,6 +73,15 @@ function beatHit(_)
     if (swingEnabled) {
         targetAngle = (targetAngle == 6) ? -6 : 6;
         currentAngle = targetAngle;
+    }
+}
+
+function stepHit(_)
+{
+    switch(_)
+    {
+        case 1679:
+            endSong();
     }
 }
 
@@ -104,4 +126,12 @@ function camswingoff() {
     // Resets internal clock loops so old drift values vanish instantly
     posTime = 0;
     swingTime = 0;
+}
+
+function tweenTo(object:Dynamic, values:Dynamic, duration:Float, options:Dynamic = null) {
+    if (object != null) {
+        FlxTween.globalManager.cancelTweensOf(object);
+        return FlxTween.tween(object, values, duration, options);
+    }
+    return null;
 }

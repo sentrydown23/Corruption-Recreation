@@ -4,6 +4,16 @@ import flixel.tweens.FlxEase;
 
 var switched:Bool = false;
 
+function create()
+{
+    blackBox = new FlxSprite(0, 0);
+    blackBox.makeGraphic(5000, 5000, 0xFF000000);
+    blackBox.screenCenter();
+    blackBox.scrollFactor.set(0, 0);
+    blackBox.cameras = [camHUD];
+    add(blackBox);
+}
+
 function postCreate() 
 {
     defaultDisplayRating = false;
@@ -20,6 +30,8 @@ function beatHit(_)
 {
     switch(_)
     {
+        case 1:
+            tweenTo(blackBox, {alpha: 0}, 5);
         case 12:
             setToMiddleScroll(0.5);
 
@@ -37,6 +49,9 @@ function beatHit(_)
         
         case 528:
             resetStrumlines(1);
+
+        case 560:
+            blackBox.alpha = 1;
     }
 }
 
@@ -143,4 +158,12 @@ function onNoteCreation(event) {
         if (event.strumLine == playerStrum) event.note.alpha = 1;
         if (event.strumLine == opponentStrum) event.note.alpha = 1;
     }
+}
+
+function tweenTo(object:Dynamic, values:Dynamic, duration:Float, options:Dynamic = null) {
+    if (object != null) {
+        FlxTween.globalManager.cancelTweensOf(object);
+        return FlxTween.tween(object, values, duration, options);
+    }
+    return null;
 }
