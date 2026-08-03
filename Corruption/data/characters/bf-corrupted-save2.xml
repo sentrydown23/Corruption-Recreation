@@ -1,8 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character y="200" flipX="true" isPlayer="true" icon="bf-corrupted-save" color="#E62145">
-	<anim name="idle" anim="CBF Idle"/>
-	<anim name="singDOWN" anim="CBF Down" x="-40" y="-25"/>
-	<anim name="singRIGHT" anim="CBF Right" x="-40" y="-10"/>
-	<anim name="singLEFT" anim="CBF Left" x="5" y="-5"/>
-	<anim name="singUP" anim="CBF Up" x="-10" y="15"/>
+<character y="230" sprite="bf-corrupted-save" flipX="true" isPlayer="true" icon="bf-corrupted-save" color="#E62145">
+	<anim name="idle" anim="BF idle dance"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0" x="-5" y="-50"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" x="-12" y="-52"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="-50" y="-5"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" x="-40" y="-8"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0" x="7" y="-7"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" x="7" y="-8"/>
+	<anim name="singUP" anim="BF NOTE UP0" x="-45" y="30"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS" x="-34" y="27"/>
 </character>

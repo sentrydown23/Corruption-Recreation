@@ -1,4 +1,4 @@
-<week name="Longest Week Ever" chars="" sprite="week1">
+<week name="Longest Week Ever" chars="" sprite="storyfrost">
     <song>frostbite</song>
     <song>pico-remix</song>
     <song>philly-remix</song>
@@ -13,5 +13,8 @@
     <song>dead-pixel</song>
     <song>treacherous-thorns</song>
     <song>roots</song>
+    <song>lament</song>
+    <song>dusk</song>
+    <song>deathmatch</song>
     <difficulty name="Hard"/>
 </week>

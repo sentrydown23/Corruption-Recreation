@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="1000" startCamPosY="600" folder="stages/stage2/lament/" zoom="0.9" name="stage-lament">
+	<sprite x="-600" scroll="0.9" sprite="stageback" y="-200" name="bg"/>
+	<sprite x="-600" scroll="0.9" sprite="stagefront" y="600" name="stageFront"/>
+	<girlfriend/>
+	<boyfriend/>
+	<dad/>
+</stage>

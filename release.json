@@ -1,4 +1,4 @@
 {
-  "version": "1.1.0",
-  "notes": "##\n- Added New Week!\n- Added a fade in and fade out to songs that needed it\n- Fixed the chart in Philly Remix not matching the song\n- Made a new debug week that contains literally every song in the mod right now, good for marathoning (will be removed soon)\n\n\n\nYes yes I know the Spookeez Remix seems like its off beat but its not, believe me. I'll replace it with a better one if I find it but for now just deal with it idk"
+  "version": "1.4.0",
+  "notes": "## Stuff\nSkipping a few versions cause I iterated through 3 of them mid development sowwy\n\nCHECK OUT THE GLOW UP BY THE WAY WOOOOOOO\nAnyways yes glow up main menu and new week, sorry if the menu lags a bit on entering it its a bit unoptimized right now\n\nalso! new intro animation its cool watch it\n\nstory mode and freeplay are fancy now \n\n\n## General Additions\n- Removed the High Quality bf sprites they looked weird sorry\n- Finally found and added perfect recreations of BF's original corruption sprites\n\n\n\n## Weeks\n### One Left\n- New Week against Dad\n- Ending Cutscenes for second and third song with a teaser of the next week!\n- These charts are super fun, probably more fun than Roots (Lots of you liked that one)\n \n### In My Way\n- Added new Dialogue at the end of each song, quick flashes nothing fancy\n- Pico Sprite fixes he was a bit janky"
 }

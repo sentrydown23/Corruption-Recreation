@@ -12,3 +12,6 @@ senpai-remix
 dead-pixel
 treacherous-thorns
 roots
+lament
+dusk
+deathmatch

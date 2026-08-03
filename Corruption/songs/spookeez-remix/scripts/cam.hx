@@ -38,14 +38,14 @@ function update()
 
 function beatHit(_)
 {
-    if (!fastbop)
+    if (!fastbop && bop)
     {
         if (_ % 2 == 0) {
             camGame.zoom += gameBop;
             camHUD.zoom += hudBop;
         }
     }
-    else if (fastbop)
+    else if (fastbop && bop)
     {
         camGame.zoom += gameBop;
         camHUD.zoom += hudBop;

@@ -1,0 +1,142 @@
+import flixel.FlxCamera;
+import flixel.FlxSprite;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+
+var camVignette:FlxCamera = new FlxCamera();
+var vigLayers:Array<FlxSprite> = [];
+var breatheTween:FlxTween;
+var isBreathing:Bool = false;
+
+function postCreate() {
+    camVignette.bgColor = 0x00000000;
+    FlxG.cameras.add(camVignette, false);
+
+    // Create 5 layers cleanly using a loop
+    for (i in 1...6) {
+        var vig:FlxSprite = new FlxSprite();
+        vig.loadGraphic(Paths.image("stages/philly2/vin" + i));
+        vig.setGraphicSize(FlxG.width, FlxG.height);
+        vig.updateHitbox();
+        vig.scrollFactor.set(0, 0);
+        vig.screenCenter();
+        vig.cameras = [camVignette];
+        vig.alpha = 0;
+
+        vigLayers.push(vig);
+        insert(0, vig);
+    }
+}
+
+function beatHit(curBeat:Int) {
+    switch(curBeat) {
+        case 192:
+            showVignette([1], 1.0);
+
+        case 256:
+            showVignette([3], 1.0);
+
+        case 284:
+            cleanupVignettes();
+
+        case 288:
+            showVignette([1, 3], 0.5);
+
+        case 348:
+            cleanupVignettes();
+
+        case 351:
+            showVignette([3, 4], 0.5);
+
+        case 412:
+            cleanupVignettes();
+
+        case 416:
+            showVignette([1], 1.0);
+
+        case 480:
+            showVignette([1, 5], 0.5);
+
+        case 542:
+            cleanupVignettes();
+        
+        case 544:
+            showVignette([1], 0.5);
+        
+        case 608:
+            cleanupVignettes();
+    }
+}
+
+function update(elapsed:Float) {
+    if (isBreathing) {
+        if (breatheTween == null) {
+            breatheTween = FlxTween.tween(camVignette, {alpha: 0.8}, 2.0, {
+                ease: FlxEase.sineInOut,
+                type: 4 // FlxTween.PINGPONG
+            });
+        }
+    } else {
+        if (breatheTween != null) {
+            breatheTween.cancel();
+            breatheTween = null;
+        }
+    }
+}
+
+/**
+ * Enables specific vignette layers while fading out unselected ones.
+ * @param numbers Array of layer IDs to enable (e.g. [4, 5])
+ * @param duration Fade transition duration in seconds
+ */
+function showVignette(numbers:Array<Int>, duration:Float = 1.0) {
+    isBreathing = false;
+    camVignette.alpha = 1.0;
+
+    for (i in 0...vigLayers.length) {
+        var layerNum = i + 1;
+        var layer = vigLayers[i];
+
+        if (numbers.contains(layerNum)) {
+            // Fade in selected layers
+            tweenTo(layer, {alpha: 1}, duration, {
+                onComplete: function(twn:FlxTween) {
+                    isBreathing = true;
+                }
+            });
+        } else if (layer.alpha > 0) {
+            // Fade out unselected layers
+            tweenTo(layer, {alpha: 0}, duration);
+        }
+    }
+}
+
+function cleanupVignettes(duration:Float = 0.2) {
+    isBreathing = false;
+
+    // Cancel any active camera breathing tween
+    if (breatheTween != null) {
+        breatheTween.cancel();
+        breatheTween = null;
+    }
+    camVignette.alpha = 1.0;
+
+    // Cancel all active layer tweens and fade out visible layers
+    for (layer in vigLayers) {
+        if (layer != null) {
+            FlxTween.globalManager.cancelTweensOf(layer);
+            
+            if (layer.alpha > 0) {
+                FlxTween.tween(layer, {alpha: 0}, duration);
+            }
+        }
+    }
+}
+
+function tweenTo(object:Dynamic, values:Dynamic, duration:Float, options:Dynamic = null) {
+    if (object != null) {
+        FlxTween.globalManager.cancelTweensOf(object);
+        return FlxTween.tween(object, values, duration, options);  
+    }
+    return null;
+}

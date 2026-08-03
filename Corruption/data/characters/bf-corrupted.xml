@@ -1,12 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character y="200" flipX="true" isPlayer="true" icon="bf-corrupted" color="#E62145">
-	<anim name="idle" anim="BF Idle"/>
-	<anim name="singDOWN" anim="BF Down" x="-30" y="-25"/>
-	<anim name="singDOWNmiss" anim="BF MISS Down" x="135" y="310"/>
-	<anim name="singRIGHT" anim="BF Right" x="-40" y="-10"/>
-	<anim name="singRIGHTmiss" anim="BF MISS Right" x="117" y="358"/>
-	<anim name="singLEFT" anim="BF Left" x="10" y="-5"/>
-	<anim name="singLEFTmiss" anim="BF MISS Left" x="150" y="372"/>
-	<anim name="singUP" anim="BF Up" x="-10" y="15"/>
-	<anim name="singUPmiss" anim="BF MISS Up" x="61" y="385"/>
+<character y="230" sprite="bf-corrupted" flipX="true" isPlayer="true" color="#E62145">
+	<anim name="idle" anim="BF idle dance"/>
+	<anim name="singDOWN" anim="BF NOTE DOWN0" x="-5" y="-50"/>
+	<anim name="singDOWNmiss" anim="BF NOTE DOWN MISS" x="-15" y="-50"/>
+	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="-50" y="-5"/>
+	<anim name="singRIGHTmiss" anim="BF NOTE RIGHT MISS" x="-40" y="-8"/>
+	<anim name="singLEFT" anim="BF NOTE LEFT0" x="7" y="-7"/>
+	<anim name="singLEFTmiss" anim="BF NOTE LEFT MISS" x="7" y="-8"/>
+	<anim name="singUP" anim="BF NOTE UP0" x="-45" y="30"/>
+	<anim name="singUPmiss" anim="BF NOTE UP MISS" x="-35" y="10"/>
 </character>
