@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "soul",
+	"color": "#000000",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Tormentor",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 165
+}

@@ -33,9 +33,9 @@ function create()
 
 function postCreate() 
 {
-    defaultDisplayRating = false;
-    defaultDisplayCombo = false;
-    minDigitDisplay = -1;
+    // Rating shit moved to global song script
+    // Rating shit moved to global song script
+    // Rating shit moved to global song script
     camswingon();
 
     camHUD.alpha = 0;

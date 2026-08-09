@@ -15,3 +15,7 @@ roots
 lament
 dusk
 deathmatch
+tormentor
+neuroses
+discharge
+memoryleak

@@ -18,9 +18,9 @@ function postCreate()
     iconP1.setIcon("bf-frostbite");
     iconP2.setIcon("monster-frostbite");
     camHUD.alpha = 0;
-    defaultDisplayRating = false;
-    defaultDisplayCombo = false;
-    minDigitDisplay = -1;
+    // Rating shit moved to global song script
+    // Rating shit moved to global song script
+    // Rating shit moved to global song script
     startSong();
 }
 

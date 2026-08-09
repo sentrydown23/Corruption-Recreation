@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-270" sprite="soul/soul-neuroses" camx="100" icon="soul" color="#000000">
+	<anim name="idle" anim="Soul BF Idle" loop="true"/>
+	<anim name="singDOWN" anim="Soul BF Down" x="-30" y="-15"/>
+	<anim name="singRIGHT" anim="Soul BF Right" x="-60" y="-10"/>
+	<anim name="singLEFT" anim="Soul BF Left" x="-20" y="10"/>
+	<anim name="singUP" anim="Soul BF Up" x="-90" y="60"/>
+</character>

@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#000000",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "soul",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Discharge",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 153
+}

@@ -1,6 +1,3 @@
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-
 var swingEnabled:Bool = false;
 var currentAngle:Float = 0;
 var targetAngle:Float = 0;
@@ -32,9 +29,9 @@ function create()
 
 function postCreate() 
 {
-    defaultDisplayRating = false;
-    defaultDisplayCombo = false;
-    minDigitDisplay = -1;
+    // Rating shit moved to global song script
+    // Rating shit moved to global song script
+    // Rating shit moved to global song script
     startSong();
 }
 

@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfsguitar.png">
+	<!-- Created with Adobe Animate version 20.5.1.31044 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Animation Guitar0000" x="2532" y="0" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0001" x="2532" y="0" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0002" x="3153" y="0" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0003" x="3153" y="0" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0004" x="2532" y="0" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0005" x="2532" y="0" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0006" x="3153" y="0" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0007" x="3153" y="0" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0008" x="2532" y="553" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0009" x="2532" y="553" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0010" x="3153" y="553" width="621" height="553"/>
+	<SubTexture name="Animation Guitar0011" x="3153" y="553" width="621" height="553"/>
+	<SubTexture name="DKHFS0000" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0001" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0002" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0003" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0004" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0005" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0006" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0007" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0008" x="1000" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0009" x="1000" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0010" x="2447" y="2343" width="500" height="596"/>
+	<SubTexture name="DKHFS0011" x="2447" y="2343" width="500" height="596"/>
+	<SubTexture name="DKHFS0012" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0013" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0014" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0015" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0016" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0017" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0018" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0019" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0020" x="1000" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0021" x="1000" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0022" x="2447" y="2343" width="500" height="596"/>
+	<SubTexture name="DKHFS0023" x="2447" y="2343" width="500" height="596"/>
+	<SubTexture name="DKHFS0024" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0025" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0026" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0027" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0028" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0029" x="0" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0030" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0031" x="500" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0032" x="1000" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0033" x="1000" y="1858" width="500" height="596"/>
+	<SubTexture name="DKHFS0034" x="2447" y="2343" width="500" height="596"/>
+	<SubTexture name="DKHFS0035" x="2447" y="2343" width="500" height="596"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0000" x="0" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0001" x="0" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0002" x="501" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0003" x="1002" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0004" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0005" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0006" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0007" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0008" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0009" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0010" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0011" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0012" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0013" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0014" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0015" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0016" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0017" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0018" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0019" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0020" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0021" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0022" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0023" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0024" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0025" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0026" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0027" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0028" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0029" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0030" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0031" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0032" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0033" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0034" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0035" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0036" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0037" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0038" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0039" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0040" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0041" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0042" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0043" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0044" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0045" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0046" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0047" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0048" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0049" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0050" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0051" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0052" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0053" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0054" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0055" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0056" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0057" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0058" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0059" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0060" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0061" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0062" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0063" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0064" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0065" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0066" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0067" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0068" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0069" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0070" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0071" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0072" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0073" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0074" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0075" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0076" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0077" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0078" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0079" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0080" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0081" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0082" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0083" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0084" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0085" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0086" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0087" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0088" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0089" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0090" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0091" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0092" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0093" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0094" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0095" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0096" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0097" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0098" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0099" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0100" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0101" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0102" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0103" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0104" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0105" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0106" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0107" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0108" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0109" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0110" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0111" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0112" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0113" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="Soul BF GUITAR LEFT Black0114" x="1503" y="572" width="501" height="647"/>
+	<SubTexture name="down guitar go vrrrrr0000" x="0" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0001" x="0" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0002" x="633" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0003" x="1266" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0004" x="1266" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0005" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0006" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0007" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0008" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0009" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0010" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0011" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0012" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0013" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0014" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0015" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0016" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0017" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0018" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0019" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0020" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0021" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0022" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0023" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0024" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0025" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0026" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0027" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0028" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0029" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0030" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0031" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0032" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0033" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0034" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0035" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0036" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0037" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0038" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0039" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0040" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0041" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0042" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0043" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0044" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0045" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0046" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0047" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0048" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0049" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0050" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0051" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0052" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0053" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0054" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0055" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0056" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0057" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0058" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0059" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0060" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0061" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0062" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0063" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0064" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0065" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0066" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0067" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0068" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0069" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0070" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0071" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0072" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0073" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0074" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0075" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0076" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0077" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0078" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0079" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0080" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0081" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0082" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0083" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0084" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0085" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0086" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0087" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0088" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0089" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0090" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0091" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0092" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0093" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0094" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0095" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0096" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0097" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0098" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0099" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0100" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0101" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0102" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0103" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0104" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0105" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0106" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0107" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0108" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0109" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0110" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0111" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0112" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0113" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0114" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0115" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0116" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0117" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0118" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0119" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0120" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0121" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0122" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0123" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0124" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0125" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0126" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0127" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0128" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0129" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0130" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0131" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0132" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0133" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0134" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0135" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0136" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0137" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0138" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0139" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0140" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0141" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0142" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0143" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0144" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0145" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0146" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0147" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0148" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0149" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0150" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0151" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0152" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0153" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0154" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0155" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0156" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0157" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0158" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0159" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0160" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0161" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0162" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0163" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0164" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0165" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0166" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0167" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0168" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0169" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0170" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0171" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0172" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0173" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0174" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0175" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0176" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0177" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0178" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0179" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0180" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0181" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0182" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0183" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0184" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0185" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0186" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0187" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0188" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0189" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0190" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0191" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0192" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0193" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0194" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0195" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0196" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0197" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0198" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0199" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0200" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0201" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0202" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0203" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0204" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0205" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0206" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0207" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0208" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0209" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0210" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0211" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0212" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0213" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0214" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0215" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0216" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0217" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0218" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0219" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0220" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0221" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0222" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0223" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0224" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0225" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0226" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0227" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0228" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0229" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0230" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0231" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0232" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0233" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0234" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0235" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0236" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0237" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="down guitar go vrrrrr0238" x="1899" y="0" width="633" height="572"/>
+	<SubTexture name="guitar xd0000" x="2004" y="572" width="483" height="639"/>
+	<SubTexture name="guitar xd0001" x="2004" y="572" width="483" height="639"/>
+	<SubTexture name="guitar xd0002" x="2487" y="1106" width="483" height="639"/>
+	<SubTexture name="guitar xd0003" x="2487" y="1106" width="483" height="639"/>
+	<SubTexture name="guitar xd0004" x="2004" y="572" width="483" height="639"/>
+	<SubTexture name="guitar xd0005" x="2004" y="572" width="483" height="639"/>
+	<SubTexture name="guitar xd0006" x="2487" y="1106" width="483" height="639"/>
+	<SubTexture name="guitar xd0007" x="2487" y="1106" width="483" height="639"/>
+	<SubTexture name="guitar xd0008" x="2970" y="1106" width="483" height="639"/>
+	<SubTexture name="guitar xd0009" x="2970" y="1106" width="483" height="639"/>
+	<SubTexture name="guitar xd0010" x="3453" y="1106" width="483" height="639"/>
+	<SubTexture name="guitar xd0011" x="2004" y="1211" width="483" height="639"/>
+	<SubTexture name="guitar xd0012" x="0" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0013" x="0" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0014" x="483" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0015" x="483" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0016" x="966" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0017" x="966" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0018" x="483" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0019" x="483" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0020" x="1449" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0021" x="1449" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0022" x="2004" y="1211" width="483" height="639"/>
+	<SubTexture name="guitar xd0023" x="2004" y="1211" width="483" height="639"/>
+	<SubTexture name="guitar xd0024" x="0" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0025" x="0" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0026" x="483" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0027" x="483" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0028" x="966" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0029" x="966" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0030" x="483" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0031" x="483" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0032" x="1449" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0033" x="1449" y="1219" width="483" height="639"/>
+	<SubTexture name="guitar xd0034" x="2004" y="1211" width="483" height="639"/>
+	<SubTexture name="guitar xd0035" x="2004" y="1211" width="483" height="639"/>
+	<SubTexture name="shred guitar0000" x="2487" y="1745" width="515" height="598"/>
+	<SubTexture name="shred guitar0001" x="2487" y="1745" width="515" height="598"/>
+	<SubTexture name="shred guitar0002" x="3002" y="1745" width="515" height="598"/>
+	<SubTexture name="shred guitar0003" x="3517" y="1745" width="515" height="598"/>
+	<SubTexture name="shred guitar0004" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0005" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0006" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0007" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0008" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0009" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0010" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0011" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0012" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0013" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0014" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0015" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0016" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0017" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0018" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0019" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0020" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0021" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0022" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0023" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0024" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0025" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0026" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0027" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0028" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0029" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0030" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0031" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0032" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0033" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0034" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0035" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0036" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0037" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0038" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0039" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0040" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0041" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0042" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0043" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0044" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0045" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0046" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0047" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0048" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0049" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0050" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0051" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0052" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0053" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0054" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0055" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0056" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0057" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0058" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0059" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0060" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0061" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0062" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0063" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0064" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0065" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0066" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0067" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0068" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0069" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0070" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0071" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0072" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0073" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0074" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0075" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0076" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0077" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0078" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0079" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0080" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0081" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0082" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0083" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0084" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0085" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0086" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0087" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0088" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0089" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0090" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0091" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0092" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0093" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0094" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0095" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0096" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0097" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0098" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0099" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0100" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0101" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0102" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0103" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0104" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0105" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0106" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0107" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0108" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0109" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0110" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0111" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0112" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0113" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0114" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0115" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0116" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0117" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0118" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0119" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0120" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0121" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0122" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0123" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0124" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0125" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0126" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0127" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0128" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0129" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0130" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0131" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0132" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0133" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0134" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0135" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0136" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0137" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0138" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0139" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0140" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0141" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0142" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0143" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0144" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0145" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0146" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0147" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0148" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0149" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0150" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0151" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0152" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0153" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0154" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0155" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0156" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0157" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0158" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0159" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0160" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0161" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0162" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0163" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0164" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0165" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0166" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0167" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0168" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0169" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0170" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0171" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0172" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0173" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0174" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0175" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0176" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0177" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0178" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0179" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0180" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0181" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0182" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0183" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0184" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0185" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0186" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0187" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0188" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0189" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0190" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0191" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0192" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0193" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0194" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0195" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0196" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0197" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0198" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0199" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0200" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0201" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0202" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0203" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0204" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0205" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0206" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0207" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0208" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0209" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0210" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0211" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0212" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0213" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0214" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0215" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0216" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0217" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0218" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0219" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0220" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0221" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0222" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0223" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0224" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0225" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0226" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0227" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0228" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0229" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0230" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0231" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0232" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0233" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0234" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0235" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0236" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0237" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0238" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0239" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0240" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0241" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0242" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0243" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0244" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0245" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0246" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0247" x="1932" y="1850" width="515" height="598"/>
+	<SubTexture name="shred guitar0248" x="1932" y="1850" width="515" height="598"/>
+</TextureAtlas>

@@ -74,10 +74,12 @@ var weekIconsMap:Array<Array<String>> = [
     ["spooky", "bf-corrupted"],
     ["mom2", "picofull"],
     ["senpai2", "bf-pixel2"],
-    ["dad-lament-1", "bf-corrupted"]
+    ["dad-lament-1", "bf-corrupted"],
+    ["soul", "bf"]
 ];
 
 var weekIconTypesMap:Array<Array<String>> = [
+    ["opponent", "player"],
     ["opponent", "player"],
     ["opponent", "player"],
     ["opponent", "player"],
@@ -350,6 +352,11 @@ function updateIcons() {
                     icon.x = baseRightX - scaledWidth;
                     icon.y = baseY;
                     icon.flipX = true;
+
+                case "player-flip":
+                    icon.x = baseRightX - scaledWidth;
+                    icon.y = baseY;
+                    icon.flipX = false;
 
                 case "opponent":
                     var groupWidth:Float = (totalIcons * scaledWidth) + ((totalIcons - 1) * iconSpacing);

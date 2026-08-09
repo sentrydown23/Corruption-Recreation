@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-270" sprite="soul/soul-neuroses-guitar" camx="100" icon="soul" color="#000000">
+	<anim name="guitar" anim="Evil Bf Play Guitar" fps="20" loop="false"/>
+</character>

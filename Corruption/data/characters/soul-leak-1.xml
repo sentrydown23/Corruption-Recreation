@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-270" sprite="soul/soul-leak-1" camx="100" icon="soul" color="#000000">
+	<anim name="idle" anim="Soul BF Idle" loop="true"/>
+	<anim name="Kidding" anim="kidding" x="85" y="10"/>
+	<anim name="Shrug" anim="shrug" x="-30" y="-5"/>
+	<anim name="Sentimental" anim="sentimental" x="-20" y="10"/>
+	<anim name="Surprised" anim="shock" x="-20" y="10"/>
+	<anim name="singLEFT" anim="Soul BF SING LEFT" x="-20" y="10"/>
+	<anim name="singDOWN" anim="Soul BF SING DOWN" x="-30" y="-15"/>
+	<anim name="singRIGHT" anim="Soul BF SING RIGHT" x="-60" y="-10"/>
+	<anim name="singUP" anim="Soul BF SING UP" x="-90" y="60"/>
+</character>
