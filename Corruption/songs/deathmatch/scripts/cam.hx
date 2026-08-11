@@ -1,6 +1,3 @@
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-
 var swingEnabled:Bool = false;
 var currentAngle:Float = 0;
 var targetAngle:Float = 0;

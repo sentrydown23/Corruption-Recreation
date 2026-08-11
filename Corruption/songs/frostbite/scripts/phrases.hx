@@ -1,8 +1,3 @@
-import flixel.FlxSprite;
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-import flixel.util.FlxTimer;
-
 var phrases:Array<FlxSprite> = [];
 var phrase1:FlxSprite = new FlxSprite();
 var phrase2:FlxSprite = new FlxSprite();

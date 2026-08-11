@@ -42,3 +42,11 @@ function onPostNoteHit(event) {
         }
     }
 }
+
+function update()
+{
+    if (FlxG.keys.justPressed.E)
+    {
+        trace(FlxG.save.data.disParticles);
+    }
+}

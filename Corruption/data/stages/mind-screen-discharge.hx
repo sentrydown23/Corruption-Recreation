@@ -12,6 +12,8 @@ var breaksCounter:Int = 0;
 var charBreaksCounter:Int = 0;
 
 
+
+
 function create()
 {
     // -- Normal Background layers
@@ -32,19 +34,21 @@ function create()
     fireBgParts.push(platformfire); // 3
 
     // -- Soul Portals
-    soulPortals.push(soulPortal); // 0
-    soulPortals.push(soulPortalShockwave); // 1
+    if (FlxG.save.data.disParticles) {
+        soulPortals.push(soulPortal); // 0
+        soulPortals.push(soulPortalShockwave); // 1
 
-    // -- BF Portals
-    bfPortals.push(bfPortal); // 0
-    bfPortals.push(bfPortal2); // 1
+        // -- BF Portals
+        bfPortals.push(bfPortal); // 0
+        bfPortals.push(bfPortal2); // 1
 
-    // -- Start Particles
-    startParticles.push(soulPortalOpen); // 0
-    startParticles.push(explosion); // 1
-    startParticles.push(smog); // 2
-    startParticles.push(fire); // 3
-    startParticles.push(glassbreak); // 4
+        // -- Start Particles
+        startParticles.push(soulPortalOpen); // 0
+        startParticles.push(explosion); // 1
+        startParticles.push(smog); // 2
+        startParticles.push(fire); // 3
+        startParticles.push(glassbreak); // 4
+    }
 
 
     // -- Breaks
@@ -56,24 +60,26 @@ function create()
     breaks.push(soulBreak1); // 5
     breaks.push(soulBreak2); // 6
 
-    for (spr in particles) {
-        spr.alpha = 0;
-    }
+    if (FlxG.save.data.disParticles) {
+        for (spr in particles) {
+            spr.alpha = 0;
+        }
 
-    for (spr in startParticles) {
-        spr.alpha = 0;
-        spr.x -= 100;
-        spr.y += 100;
-    }
+        for (spr in startParticles) {
+            spr.alpha = 0;
+            spr.x -= 100;
+            spr.y += 100;
+        }
 
-    for (spr in soulPortals) {
-        spr.alpha = 0;
-        spr.x -= 100;
-        spr.y += 100;
-    }
+        for (spr in soulPortals) {
+            spr.alpha = 0;
+            spr.x -= 100;
+            spr.y += 100;
+        }
 
-    for (spr in bfPortals) {
-        spr.alpha = 0;
+        for (spr in bfPortals) {
+            spr.alpha = 0;
+        }
     }
 
     // Only for sprites 0 1 2 5 and 6
@@ -94,12 +100,17 @@ function create()
     screen[0].alpha = 0;
     normalBgParts[1].alpha = 0;
     normalBgParts[6].alpha = 0;
-    startParticles[2].y -= 100;
+
+    if (FlxG.save.data.disParticles) {
+        startParticles[2].y -= 100;
+    }
 }
 
 function postCreate()
 {
-    tweenTo(startParticles[2], {alpha: 0.3}, 1.0);
+    if (FlxG.save.data.disParticles) {
+        tweenTo(startParticles[2], {alpha: 0.3}, 1.0);
+    }    
 }
 
 function stepHit(curStep:Int)
@@ -119,8 +130,10 @@ function stepHit(curStep:Int)
             breakStep();
 
         case 1044:
-            tweenTo(startParticles[0], {alpha: 0}, 1.0);
-            startParticles[1].alpha = 0;
+            if (FlxG.save.data.disParticles) {
+                tweenTo(startParticles[0], {alpha: 0}, 1.0);
+                startParticles[1].alpha = 0;
+            }
 
         case 1536:
             normalBgParts[6].alpha = 1;
@@ -129,7 +142,7 @@ function stepHit(curStep:Int)
             normalBgParts[6].alpha = 0;
 
         case 2176:
-            normalBgParts[6].alpha = 1;
+            normalBgParts[6].alpha = 1; 
 
         case 2560:
             for (spr in fireBgParts) {
@@ -139,20 +152,28 @@ function stepHit(curStep:Int)
             tweenTo(normalBgParts[3], {alpha: 0}, 5);
             tweenTo(normalBgParts[4], {alpha: 0}, 5);
             tweenTo(normalBgParts[5], {alpha: 0}, 5);
-            tweenTo(startParticles[3], {alpha: 1}, 5);
-            tweenTo(startParticles[2], {alpha: 0}, 5);
+            
+            if(FlxG.save.data.disParticles) {
+                tweenTo(startParticles[3], {alpha: 1}, 5);
+                tweenTo(startParticles[2], {alpha: 0}, 5);
+            }
 
         case 2688:
+        if (FlxG.save.data.disParticles) {
             for (spr in bfPortals) {
                 tweenTo(spr, {alpha: 1}, 0.5);
             }
+        }
 
         case 2944:
+        if (FlxG.save.data.disParticles) {
             for (spr in soulPortals) {
                 tweenTo(spr, {alpha: 1}, 0.5);
             }
+        }
 
         case 3488:
+        if (FlxG.save.data.disParticles) {
             for (spr in bfPortals) {
                 tweenTo(spr, {alpha: 0}, 0.5);
             }
@@ -160,6 +181,7 @@ function stepHit(curStep:Int)
             for (spr in soulPortals) {
                 tweenTo(spr, {alpha: 0}, 0.5);
             }
+        }
 
         case 3536:
             for (spr in fireBgParts) {
@@ -170,9 +192,13 @@ function stepHit(curStep:Int)
             }
             normalBgParts[0].alpha = 0;
             normalBgParts[1].alpha = 1;
-            startParticles[2].alpha = 0.3;
-            startParticles[3].alpha = 0;
 
+            if (FlxG.save.data.disParticles) {
+                startParticles[2].alpha = 0.3;
+                startParticles[3].alpha = 0;
+            }    
+
+ 
         case 3822:
             charBreakStep();
 
@@ -186,16 +212,21 @@ function stepHit(curStep:Int)
             charBreakStep();
 
         case 4222:
-            startParticles[4].alpha = 1;
-            startParticles[2].alpha = 0;
-            startParticles[4].playAnim('breaky', true, false);
+            if (FlxG.save.data.disParticles) {
+                startParticles[4].alpha = 1;
+                startParticles[2].alpha = 0;
+                startParticles[4].playAnim('breaky', true, false);
+            }
 
         case 4282:
             for (spr in normalBgParts) {
                 spr.alpha = 0;
             }
-            tweenTo(startParticles[4], {alpha: 0}, 3);
-            screen[0].alpha = 1;
+
+            if (FlxG.save.data.disParticles) {
+                tweenTo(startParticles[4], {alpha: 0}, 3);
+                screen[0].alpha = 1;
+            }
     }
 
 }

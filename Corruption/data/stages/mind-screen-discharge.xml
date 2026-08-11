@@ -7,7 +7,10 @@
     <sprite x="-460" scroll="0.1" sprite="discharge/mountains" y="-392" type="none" scalex="1.27" scaley="1.1" name="mountains"/>
 
     <!-- Midground Rocks & Main Platform -->
+    <high-memory>
     <sprite x="397" sprite="discharge/particles/fire" y="324" scalex="3" scaley="3" name="fire"/>
+    </high-memory>
+    
     <sprite x="-548" scroll="0.8" sprite="discharge/rock1_fire" y="-140" type="none" scalex="0.9" scaley="1.07" name="rock1fire"/>
     <sprite x="-548" scroll="0.8" sprite="discharge/rock1" y="-140" type="none" scalex="0.9" scaley="1.07" name="rock1"/>
     <sprite x="-381" scroll="0.8" sprite="discharge/rock2_fire" y="-254" type="none" scalex="0.9" scaley="0.86" name="rock2fire"/>
@@ -15,28 +18,27 @@
     <sprite x="-313" sprite="discharge/platform_fire" y="-302" type="none" scalex="0.89" scaley="0.85" name="platformfire"/>
     <sprite x="-313" sprite="discharge/platform" y="-302" type="none" scalex="0.89" scaley="0.85" name="platform"/>
 	<sprite x="727" sprite="discharge/guitar" y="491" type="none" scalex="0.99" scaley="0.95" name="bfGuitar"/>
-
-
     <sprite x="-95" scroll="0.8" sprite="tormentor/bgGlow" y="48" type="none" scalex="1.4" scaley="1.20" name="bgEnd"/>
+    
+    <high-memory>
+        <!-- Portal & Explosive Particles -->
+        <sprite x="428" sprite="discharge/particles/GlassBreak" y="221" type="none" scalex="2.47" scaley="2.63" name="glassbreak">
+            <anim name="breaky" anim="Breaking" loop="false"/>
+        </sprite>
 
-    <!-- Portal & Explosive Particles -->
-    <sprite x="428" sprite="discharge/particles/GlassBreak" y="221" type="none" scalex="2.47" scaley="2.63" name="glassbreak">
-        <anim name="breaky" anim="Breaking" loop="false"/>
-    </sprite>
+        <sprite x="-42" sprite="discharge/particles/SoulBfPortal" y="81" scalex="2" scaley="1.9" name="soulPortal"/>
+        <sprite x="-42" sprite="discharge/particles/SoulPortalShockwave" y="81" scale="3.3" name="soulPortalShockwave"/>
+        <sprite x="650" sprite="discharge/particles/Glow_Anim_BF_Portal" y="367" scale="2" name="bfPortal"/>
+        <sprite x="650" sprite="discharge/particles/Portal_BF" y="367" scale="2" name="bfPortal2"/>
 
-    <sprite x="-42" sprite="discharge/particles/SoulBfPortal" y="81" scalex="2" scaley="1.9" name="soulPortal"/>
-    <sprite x="-42" sprite="discharge/particles/SoulPortalShockwave" y="81" scale="3.3" name="soulPortalShockwave"/>
-    <sprite x="650" sprite="discharge/particles/Glow_Anim_BF_Portal" y="367" scale="2" name="bfPortal"/>
-    <sprite x="650" sprite="discharge/particles/Portal_BF" y="367" scale="2" name="bfPortal2"/>
-
-    <sprite x="-290" sprite="discharge/particles/explosion" y="121" scalex="2.38" scaley="2.21" name="explosion">
-        <anim name="kaboom" anim="bem" loop="false"/>
-    </sprite>
+        <sprite x="-290" sprite="discharge/particles/explosion" y="121" scalex="2.38" scaley="2.21" name="explosion">
+            <anim name="kaboom" anim="bem" loop="false"/>
+        </sprite>
 
 
-    <sprite x="-42" sprite="discharge/particles/SoulBFPortalStart" y="81" scale="2" name="soulPortalOpen"/>
-	<sprite x="156" sprite="discharge/particles/smog" y="-100" scalex="3" scaley="3" name="smog"/>
-
+        <sprite x="-42" sprite="discharge/particles/SoulBFPortalStart" y="81" scale="2" name="soulPortalOpen"/>
+	    <sprite x="156" sprite="discharge/particles/smog" y="-100" scalex="3" scaley="3" name="smog"/>
+	</high-memory>
 
     <!-- Screen Breaks & Cracks -->
     <sprite x="340" sprite="discharge/break1" y="190" type="none" name="break1"/>

@@ -7,6 +7,9 @@ var shaderTime:Float = 0;
 var rainTime:Float = 0;
 var rainControl:Float = 0;
 
+
+// add rain to car
+
 function postCreate() {
     rainShader = new CustomShader("rain");
     

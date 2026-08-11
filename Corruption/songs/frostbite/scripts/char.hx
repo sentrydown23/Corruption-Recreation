@@ -1,7 +1,3 @@
-import funkin.game.PlayState;
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-
 var player = strumLines.members[1];
 var opponent = strumLines.members[0];
 var middle = strumLines.members[2];

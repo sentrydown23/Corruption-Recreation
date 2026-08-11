@@ -1,81 +1,54 @@
-import flixel.FlxCamera;
-import flixel.FlxSprite;
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-
-var camVignette:FlxCamera = new FlxCamera();
-var vigLayer1:FlxSprite = new FlxSprite();
-var vigLayer2:FlxSprite = new FlxSprite();
-var vigLayer3:FlxSprite = new FlxSprite();
+var vigLayers:Array<FlxSprite> = [];
 var breatheTween:FlxTween;
-
 var isBreathing:Bool = false;
 
 function postCreate() {
-    camVignette.bgColor = 0x00000000;
-    FlxG.cameras.add(camVignette, false);
 
-    createVignette();
+    // Create 5 layers cleanly using a loop
+    for (i in 1...4) {
+        var vig:FlxSprite = new FlxSprite();
+        vig.loadGraphic(Paths.image("stages/frostbite/vignette/vignette" + i));
+        vig.setGraphicSize(FlxG.width, FlxG.height);
+        vig.updateHitbox();
+        vig.scrollFactor.set(0, 0);
+        vig.screenCenter();
+        vig.cameras = [camHUD];
+        vig.alpha = 0;
 
-    insert(0, vigLayer1);
-    insert(0, vigLayer2);
-    insert(0, vigLayer3);
+        vigLayers.push(vig);
+        insert(0, vig);
 
-    vigLayer1.alpha = 0;
-    vigLayer2.alpha = 0;
-    vigLayer3.alpha = 0;
+        showVignette([3]);
+    }
 }
 
 function beatHit(_)
 {
     switch(_)
     {
-        case 1:
-            vignette(3);
-
         case 320:
             cleanupVignettes();
     }
 }
 
-function update(elapsed:Float) {
+function update(elapsed:Float)
+{
     if (isBreathing) {
+    for (spr in vigLayers) {
         if (breatheTween == null) {
-            breatheTween = FlxTween.tween(camVignette, {alpha: 0.8}, 2.0, {
+            breatheTween = FlxTween.tween(spr, {alpha: 0.8}, 1.0, {
                 ease: FlxEase.sineInOut,
-                type: 4
+                type: 4 // FlxTween.PINGPONG
             });
         }
-    } else {
+    } 
+}
+    else {
         if (breatheTween != null) {
             breatheTween.cancel();
             breatheTween = null;
         }
     }
-}
-
-function createVignette()
-{
-    vigLayer1.loadGraphic(Paths.image("stages/frostbite/vignette/vignette1"));
-    vigLayer1.setGraphicSize(FlxG.width, FlxG.height);
-    vigLayer1.updateHitbox();
-    vigLayer1.scrollFactor.set(0, 0);
-    vigLayer1.screenCenter();
-    vigLayer1.cameras = [camVignette];
-
-    vigLayer2.loadGraphic(Paths.image("stages/frostbite/vignette/vignette2"));
-    vigLayer2.setGraphicSize(FlxG.width, FlxG.height);
-    vigLayer2.updateHitbox();
-    vigLayer2.scrollFactor.set(0, 0);
-    vigLayer2.screenCenter();
-    vigLayer2.cameras = [camVignette];
-
-    vigLayer3.loadGraphic(Paths.image("stages/frostbite/vignette/vignette3"));
-    vigLayer3.setGraphicSize(FlxG.width, FlxG.height);
-    vigLayer3.updateHitbox();
-    vigLayer3.scrollFactor.set(0, 0);
-    vigLayer3.screenCenter();
-    vigLayer3.cameras = [camVignette];
 }
 
 function tweenTo(object:Dynamic, values:Dynamic, duration:Float, options:Dynamic = null) {
@@ -86,36 +59,52 @@ function tweenTo(object:Dynamic, values:Dynamic, duration:Float, options:Dynamic
     return null;
 }
 
-function vignette(number:Int) {
-    if (number != 1 && number != 2 && number != 3) return;
-
+function showVignette(numbers:Array<Int>, duration:Float = 1.0) {
     isBreathing = false;
-    camVignette.alpha = 1.0;
 
-    var layers = [vigLayer1, vigLayer2, vigLayer3];
-    var target = layers[number - 1];
+    for (i in 0...vigLayers.length) {
+        var layerNum = i + 1;
+        var layer = vigLayers[i];
 
-    for (layer in layers) {
-        if (layer == target) {
-            tweenTo(layer, {alpha: 1}, 1, {
+        if (numbers.contains(layerNum)) {
+            // Fade in selected layers
+            tweenTo(layer, {alpha: 1}, duration, {
                 onComplete: function(twn:FlxTween) {
                     isBreathing = true;
                 }
             });
-        } else if (layer.alpha != 0) {
-            tweenTo(layer, {alpha: 0}, 1);
+        } else if (layer.alpha > 0) {
+            // Fade out unselected layers
+            tweenTo(layer, {alpha: 0}, duration);
         }
     }
 }
 
-function cleanupVignettes() {
+function cleanupVignettes(duration:Float = 0.2) {
     isBreathing = false;
-    camVignette.alpha = 1.0;
 
-    var layers = [vigLayer1, vigLayer2, vigLayer3];
-    for (layer in layers) {
-        if (layer.alpha > 0) {
-            tweenTo(layer, {alpha: 0}, 0.2);
+    // Cancel any active camera breathing tween
+    if (breatheTween != null) {
+        breatheTween.cancel();
+        breatheTween = null;
+    }
+
+    // Cancel all active layer tweens and fade out visible layers
+    for (layer in vigLayers) {
+        if (layer != null) {
+            FlxTween.globalManager.cancelTweensOf(layer);
+            
+            if (layer.alpha > 0) {
+                FlxTween.tween(layer, {alpha: 0}, duration);
+            }
         }
     }
+}
+
+function tweenTo(object:Dynamic, values:Dynamic, duration:Float, options:Dynamic = null) {
+    if (object != null) {
+        FlxTween.globalManager.cancelTweensOf(object);
+        return FlxTween.tween(object, values, duration, options);  
+    }
+    return null;
 }

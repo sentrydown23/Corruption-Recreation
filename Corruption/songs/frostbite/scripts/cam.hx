@@ -1,6 +1,3 @@
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-
 var opponentHidden:Bool = false;
 
 function create()

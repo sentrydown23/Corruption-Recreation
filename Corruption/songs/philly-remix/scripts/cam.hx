@@ -1,7 +1,3 @@
-import funkin.game.PlayState;
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-
 var switched:Bool = false;
 
 function create()

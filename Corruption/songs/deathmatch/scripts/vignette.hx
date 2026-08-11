@@ -1,16 +1,8 @@
-import flixel.FlxCamera;
-import flixel.FlxSprite;
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-
-var camVignette:FlxCamera = new FlxCamera();
 var vigLayers:Array<FlxSprite> = [];
 var breatheTween:FlxTween;
 var isBreathing:Bool = false;
 
 function postCreate() {
-    camVignette.bgColor = 0x00000000;
-    FlxG.cameras.add(camVignette, false);
 
     // Create 5 layers cleanly using a loop
     for (i in 1...6) {
@@ -20,7 +12,7 @@ function postCreate() {
         vig.updateHitbox();
         vig.scrollFactor.set(0, 0);
         vig.screenCenter();
-        vig.cameras = [camVignette];
+        vig.cameras = [camHUD];
         vig.alpha = 0;
 
         vigLayers.push(vig);
@@ -68,22 +60,25 @@ function beatHit(curBeat:Int) {
     }
 }
 
-function update(elapsed:Float) {
+function update(elapsed:Float)
+{
     if (isBreathing) {
+    for (spr in vigLayers) {
         if (breatheTween == null) {
-            breatheTween = FlxTween.tween(camVignette, {alpha: 0.8}, 2.0, {
+            breatheTween = FlxTween.tween(spr, {alpha: 0.8}, 1.0, {
                 ease: FlxEase.sineInOut,
                 type: 4 // FlxTween.PINGPONG
             });
         }
-    } else {
+    } 
+}
+    else {
         if (breatheTween != null) {
             breatheTween.cancel();
             breatheTween = null;
         }
     }
 }
-
 /**
  * Enables specific vignette layers while fading out unselected ones.
  * @param numbers Array of layer IDs to enable (e.g. [4, 5])
@@ -91,7 +86,6 @@ function update(elapsed:Float) {
  */
 function showVignette(numbers:Array<Int>, duration:Float = 1.0) {
     isBreathing = false;
-    camVignette.alpha = 1.0;
 
     for (i in 0...vigLayers.length) {
         var layerNum = i + 1;
@@ -119,7 +113,6 @@ function cleanupVignettes(duration:Float = 0.2) {
         breatheTween.cancel();
         breatheTween = null;
     }
-    camVignette.alpha = 1.0;
 
     // Cancel all active layer tweens and fade out visible layers
     for (layer in vigLayers) {

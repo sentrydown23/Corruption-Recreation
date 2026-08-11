@@ -13,5 +13,8 @@ function stepHit(curStep:Int)
     {
         case 780:
             camGame.addShader(vignetteBloom);
+
+        case 1680:
+            camGame.removeShader(vignetteBloom);
     }
 }

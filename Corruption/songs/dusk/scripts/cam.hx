@@ -1,7 +1,3 @@
-import funkin.game.PlayState;
-import flixel.FlxG;
-import flixel.util.FlxTimer;
-
 // --- HALF-STEP SYSTEM VARIABLES ---
 var lastHalfStep:Int = -1;
 
