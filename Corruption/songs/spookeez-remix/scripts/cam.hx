@@ -5,6 +5,9 @@ var targetAngle:Float = 0;
 var gameBop:Float = 0.01;
 var hudBop:Float = 0.025;
 var fastbop:Bool = false;
+var bop:Bool = false;
+
+camZoomingStrength = 0;
 
 function create()
 {
@@ -22,6 +25,7 @@ function postCreate()
     // Rating shit moved to global song script
     // Rating shit moved to global song script
     startSong();
+    bop = true;
 }
 
 function onCountdown(event) {
@@ -55,17 +59,32 @@ function beatHit(_)
     {
         case 1:
             tweenTo(blackBox, {alpha: 0}, 5);
-        case 48:
+
+        case 64:
+            fastbop = true;
             charswingon();
 
-        case 80: 
+        case 96:
             charswingoff();
+            fastbop = false;
 
-        case 112:
+        case 128:
+            fastbop = true;
+            charswingon();
+        
+        case 192:
+            charswingoff();
+            fastbop = false;
+
+        case 256:
+            fastbop = true;
             charswingon();
 
-        case 144: 
+        case 320:
             charswingoff();
+            fastbop = false;
+            bop = false;
+            tweenTo(blackBox, {alpha: 1}, 5);
     }
 
     if (swingEnabled) {

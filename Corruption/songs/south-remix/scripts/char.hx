@@ -16,7 +16,8 @@ function postCreate()
 function offsetBF()
 {
     player.characters[0].y += 150;
-    player.characters[0].cameraOffset.y -= 20;
+    player.characters[0].cameraOffset.x -= 200;
+    player.characters[0].cameraOffset.y -= 50;
 }
 
 function offsetGF()

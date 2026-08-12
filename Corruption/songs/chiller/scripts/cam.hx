@@ -72,22 +72,19 @@ function beatHit(_)
 
         case 96:
             bop = true;
-            charswingon();
             tweenTo(blackBox, {alpha: 0}, 0.3);
 
         case 160:
-            charswingoff();
             camswingon();
             posAmountX = 2;
             posAmountY = 0.1;
-            posSpeed = 1;
+            posSpeed = 2;
 
         case 192:
             posSpeed = 2;
 
         case 224:
             camswingoff();
-            charswingon();
 
         case 255:
             tweenTo(blackBox, {alpha: 1}, 0.1);
@@ -96,7 +93,6 @@ function beatHit(_)
             tweenTo(blackBox, {alpha: 0}, 0.1);
 
         case 320:
-            charswingoff();
             camHUD.alpha = 0;
 
         case 348:

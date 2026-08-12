@@ -1,7 +1,4 @@
-import funkin.backend.shaders.CustomShader;
 import openfl.filters.ShaderFilter;
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
 
 var rainShader:CustomShader;
 var dropletShader:CustomShader;
@@ -74,6 +71,9 @@ function beatHit(_) {
 
         case 231:
             tweenRain(0.5, 0.5, FlxEase.sineOut);
+
+        case 296:
+            tweenRain(0.0, 10, FlxEase.sineOut);
     } 
 }
 

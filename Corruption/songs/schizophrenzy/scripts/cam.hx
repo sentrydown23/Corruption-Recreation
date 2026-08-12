@@ -74,6 +74,9 @@ function beatHit(curBeat:Int)
         case 45:
             tweenTo(blackBox, {alpha: 0}, 0.1);
             tweenTo(camHUD, {alpha: 1}, 0.1);
+
+        case 296:
+            tweenTo(blackBox, {alpha: 1}, 21);
     }
 
     // Standard Bop (Every 2 beats)

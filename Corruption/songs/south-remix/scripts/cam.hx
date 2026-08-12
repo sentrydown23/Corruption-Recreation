@@ -14,14 +14,14 @@ var posAmountY:Float = 0.5;
 
 var gameBop:Float = 0.01;
 var hudBop:Float = 0.025;
-
+camZooming = true;
 function create()
 {
     blackBox = new FlxSprite(0, 0);
     blackBox.makeGraphic(5000, 5000, 0xFF000000);
     blackBox.screenCenter();
     blackBox.scrollFactor.set(0, 0);
-    blackBox.cameras = [camHUD];
+    blackBox.cameras = [camGame];
     add(blackBox);
 }
 
@@ -61,21 +61,16 @@ function beatHit(_)
     {
         case 1:
             tweenTo(blackBox, {alpha: 0}, 5);
-
-        case 32:
-            charswingon();
         
         case 96:
-            charswingoff();
             camswingon();
 
         case 160:
-            charswingon();
             camswingoff();
 
         case 224:
-            charswingoff();
             camHUD.alpha = 0;
+            tweenTo(blackBox, {alpha: 1}, 5);
     }
 
     camGame.zoom += gameBop;

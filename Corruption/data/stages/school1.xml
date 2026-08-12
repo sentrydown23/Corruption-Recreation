@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="1" folder="stages/school2/senpai" startCamPosY="550" startCamPosX="600">
+<stage zoom="1" folder="stages/school2/senpai" startCamPosY="500" startCamPosX="650">
 	<use-extension script="pixel"/>
 
 	<sprite name="bgSky1" x="-12" y="0" sprite="weebSky1"
