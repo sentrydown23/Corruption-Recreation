@@ -1,5 +1,5 @@
 <menu name="Corruption" desc="balls">  <!--Super Balls - Scrally--> <!--Yes - Rush-->
     <menu name="Performance Options" desc="Performance Options for the Potatos">
-        <checkbox id="disParticles" name="Discharge Particles" desc="Enables / Disables heavy particle effects in 'Discharge', must have Low Memory Mode turned on in order to prevent them from rendering sowwy"/>
+        <checkbox id="disParticles" name="Discharge Particles" desc="Enables / Disables heavy particle effects in 'Discharge', must have Low Memory Mode turned on in order to prevent them from rendering"/>
     </menu>
 </menu>

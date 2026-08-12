@@ -1,6 +1,3 @@
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-
 var sunset:Array<FlxSprite> = [];
 var bglimo:Array<FlxSprite> = [];
 
@@ -12,7 +9,6 @@ function postCreate() {
 
     bglimo.push(bgLimo1);
     bglimo.push(bgLimo2);
-
     for (spr in sunset) {
         spr.alpha = 0;
     }

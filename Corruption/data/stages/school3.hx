@@ -26,7 +26,7 @@ function stepHit(curStep:Int) // Using stepHit for precision
 			evilSpookyStage();
 
 		case 963, 977, 988, 993, 1041, 1049, 1050, 1053, 1054, 1055, 1056, 1057, 1079, 1087, 1088, 1089:
-			evilSpookyStage();
+			evilSpookyStage();	
 	}
 }
 
