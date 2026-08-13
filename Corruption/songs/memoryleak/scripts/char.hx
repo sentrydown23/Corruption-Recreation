@@ -28,7 +28,7 @@ function stepHit(curStep:Int)
 
         case 401:
             for (char in player) {
-                FlxTween.tween(char, {y: -3700}, 0.2, {ease: FlxEase.expoIn});
+                FlxTween.tween(char, {y: -3650}, 0.2, {ease: FlxEase.expoIn});
             }
 
         case 465:

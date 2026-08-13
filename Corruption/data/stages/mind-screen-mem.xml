@@ -32,6 +32,9 @@
 	<girlfriend/>
 	<boyfriend x="870"/>
 	<dad x="-100"/>
+
+	<ratings x="550" y="-3500"/>
+
 	<sprite x="-980" scroll="0" sprite="memoryleak/transW" y="-8000" type="none" scale="1.8" name="transW"/>
 	<sprite scroll="0" sprite="memoryleak/transW2" y="-7000" type="none" scale="4" name="transW2"/>
 </stage>

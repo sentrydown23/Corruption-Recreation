@@ -6,5 +6,6 @@
 	<boyfriend/>
 	<dad/>
 	<sprite x="-500" scroll="1.3" sprite="stagecurtains" y="-300" name="stageCurtains"/>
+	<ratings x="600" y="400"/>
 	<sprite x="-99" sprite="eyes" y="-235" type="none" scale="0.2" name="eyes"/>
 </stage>

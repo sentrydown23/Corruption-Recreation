@@ -9,4 +9,11 @@
 	<sprite name="bgTrees" x="-590" y="-800" sprite="weebTrees" antialiasing="false" scale="5.102" scroll="0.85" updateHitbox="true" type="loop">
 		<anim name="trees" anim="trees" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19" fps="12" loop="true"/>
 	</sprite>
+
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+
+
+	<ratings x="600" y="500"/>
 </stage>

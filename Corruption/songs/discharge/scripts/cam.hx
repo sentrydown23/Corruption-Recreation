@@ -58,12 +58,10 @@ function postCreate() {
     accuracyTxt.alpha = 0;
     cpuStrums.visible = false;
     byebyeStrums();
-    startSong();
+    
 }
 
-function onCountdown(event) {
-   event.cancel();
-}
+
 
 function stepHit(_)
 {

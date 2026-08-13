@@ -14,4 +14,11 @@
 		<anim name="idle" anim="halloweem bg0" type="loop" />
 		<anim name="lightning" anim="halloweem bg lightning strike" loop="false"/>
 	</sprite>
+
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+
+
+	<ratings x="600" y="500"/>
 </stage>

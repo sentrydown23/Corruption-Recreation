@@ -7,12 +7,10 @@ function postCreate()
     // Rating shit moved to global song script
     // Rating shit moved to global song script
     // Rating shit moved to global song script
-    // startSong(); 
+    //  
 }
 
-function onCountdown(event) {
-   event.cancel();
-}
+
 
 function beatHit(_)
 {

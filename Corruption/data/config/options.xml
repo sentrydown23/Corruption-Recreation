@@ -1,5 +1,11 @@
 <menu name="Corruption" desc="balls">  <!--Super Balls - Scrally--> <!--Yes - Rush-->
+    <menu name="Visuals" desc="Toggles for specific Visuals that may interrupt gameplay">
+        <checkbox id="kadearrows" name="Kade Arrows" desc="Enables / Disables Opponent note glow. Enabled is more faithful to the original mod"/>
+        <checkbox id="forcefull" name="Forced Fullscreen" desc="Enables / Disables Fullscreen forcing on open"/>
+    </menu>
+
     <menu name="Performance Options" desc="Performance Options for the Potatos">
         <checkbox id="disParticles" name="Discharge Particles" desc="Enables / Disables heavy particle effects in 'Discharge', must have Low Memory Mode turned on in order to prevent them from rendering"/>
+        <checkbox id="vigtoggle" name="Vignettes" desc="Enables / Disables Vignette's from rendering. May improve performance on low VRAM devices"/>
     </menu>
 </menu>

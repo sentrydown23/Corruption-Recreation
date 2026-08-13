@@ -18,9 +18,7 @@ function postCreate() {
     hideHUD();
 }
 
-function onCountdown(event) {
-   event.cancel();
-}
+
 
 function beatHit(_)
 {

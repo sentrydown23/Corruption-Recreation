@@ -9,4 +9,6 @@
 	<sprite x="-120" sprite="limoDrive" y="550" name="limo"/>
 	<boyfriend camxoffset="-300" x="1200" y="-110"/>
 	<dad/>
+
+	<ratings x="800" y="300"/>
 </stage>

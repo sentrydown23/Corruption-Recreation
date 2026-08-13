@@ -76,8 +76,6 @@ function onStrumCreation(event) {
 
 function onCountdown(event) {
 	if (!enablePixelUI) return;
-
-	if (event.soundPath != null) event.soundPath = 'pixel/' + event.soundPath;
 	event.antialiasing = false;
 	event.scale = daPixelZoom;
 	event.spritePath = switch(event.swagCounter) {

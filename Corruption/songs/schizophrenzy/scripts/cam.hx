@@ -41,9 +41,7 @@ function postCreate()
     camHUD.alpha = 0;
 }
 
-function onCountdown(event) {
-    event.cancel();
-}
+
 
 function update(elapsed:Float)
 {

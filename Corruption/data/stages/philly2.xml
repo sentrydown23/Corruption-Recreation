@@ -8,4 +8,10 @@
 	<sprite name="streetBehind" x="-40" y="50" sprite="behindTrain" zoomfactor="1" />
 	<sprite name="phillyTrain" x="2000" y="360" sprite="train" zoomfactor="1" />
 	<sprite name="street" x="-40" y="50" sprite="street" zoomfactor="1" />
+
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+
+	<ratings x="680" y="500"/>
 </stage>

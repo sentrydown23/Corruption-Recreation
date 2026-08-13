@@ -18,4 +18,11 @@
 		<sprite name="treeLeaves1" x="-200" y="-40" sprite="petals1" antialiasing="false" scale="6" scroll="0.85" updateHitbox="true" type="loop"/>
 		<sprite name="treeLeaves2" x="-200" y="-40" sprite="petals2" antialiasing="false" scale="6" scroll="0.85" updateHitbox="true" type="loop"/>
 	</high-memory>
+
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+
+
+	<ratings x="600" y="500"/>
 </stage>
