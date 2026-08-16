@@ -1,9 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character y="250" sprite="frostbite/bf-frostbite" flipX="true" isPlayer="true" icon="bf-frostbite">
-	<anim name="idle" anim="BF2 Idle"/>
-	<anim name="singDOWN" anim="ALT Down" x="5" y="-25"/>
-	<anim name="singRIGHT" anim="ALT Right" x="5"/>
-	<anim name="singLEFT" anim="ALT Left" x="15" y="-20"/>
-	<anim name="singUP" anim="ALT Up" x="-10" y="50"/>
-	<anim name="BF CORR2" anim="BF CORR2" x="200" y="60"/>
-</character>

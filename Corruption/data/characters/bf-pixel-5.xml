@@ -1,8 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character x="200" y="570" sprite="bfpixel/bf-5" scale="6" antialiasing="false" flipX="true" isPlayer="true" icon="bf-pixel2" color="#7BD6F6" gameOverChar="bf-pixel-dead">
-	<anim name="singLEFT" anim="BF LEFT NOTE" x="-1" y="3"/>
-	<anim name="singDOWN" anim="BF DOWN NOTE" x="3" y="1"/>
-	<anim name="idle" anim="BF IDLE"/>
-	<anim name="singUP" anim="BF UP NOTE" x="-4" y="3"/>
-	<anim name="singRIGHT" anim="BF RIGHT NOTE" y="3"/>
-</character>

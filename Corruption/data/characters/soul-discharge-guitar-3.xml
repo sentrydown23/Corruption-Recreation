@@ -1,4 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character x="-270" sprite="soul/soul-discharge-guitar-3" camx="100" icon="soul" color="#000000">
-	<anim name="yeetboi" anim="THROW GUITAR" x="130" y="130"/>
-</character>

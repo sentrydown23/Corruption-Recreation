@@ -1,8 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character x="250" y="300" sprite="pico/pico-2" flipX="true" camx="-50" icon="pico2" color="#CE7C4D">
-	<anim name="idle" anim="Pico Idle Dance"/>
-	<anim name="singDOWN" anim="Pico Down Note0" x="200" y="-85"/>
-	<anim name="singLEFT" anim="Pico Note Right0" x="75"/>
-	<anim name="singRIGHT" anim="Pico NOTE LEFT0" x="-75" y="-15"/>
-	<anim name="singUP" anim="pico Up note0" x="-25" y="20"/>
-</character>

@@ -1,8 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character y="350" sprite="bf/bf-neuroses-1" flipX="true" isPlayer="true" icon="bf" color="#31B0D1">
-	<anim name="idle" anim="BF idle dance"/>
-	<anim name="singUP" anim="BF NOTE UP0" x="-44" y="22"/>
-	<anim name="singLEFT" anim="BF NOTE LEFT0" x="-5" y="-5"/>
-	<anim name="singRIGHT" anim="BF NOTE RIGHT0" x="-44" y="-13"/>
-	<anim name="singDOWN" anim="BF NOTE DOWN0" x="-17" y="-50"/>
-</character>

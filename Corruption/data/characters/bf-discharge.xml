@@ -1,9 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character y="350" sprite="bf/bf-discharge" flipX="true" isPlayer="true" icon="bf" color="#31B0D1">
-	<anim name="singUP" anim="BF NOTE UP0" x="-1" y="14" fps="10"/>
-	<anim name="singLEFT" anim="BF NOTE LEFT0" x="2" y="-3" fps="10"/>
-	<anim name="singRIGHT" anim="BF NOTE RIGHT0" y="-5" fps="10"/>
-	<anim name="idle" anim="BF idle dance"/>
-	<anim name="singDOWN" anim="BF NOTE DOWN0" x="3" y="-31" fps="10"/>
-	<anim name="yoisthatsbf" anim="BF Idle fright" x="90" y="10" fps="29"/>
-</character>

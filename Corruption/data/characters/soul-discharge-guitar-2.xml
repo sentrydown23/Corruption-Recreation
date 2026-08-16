@@ -1,9 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character x="-270" sprite="soul/soul-discharge-guitar-2" camx="100" icon="soul" color="#000000">
-	<anim name="singLEFT-alt" anim="DKHFS" loop="true"/>
-	<anim name="singLEFT" anim="shred guitar"/>
-	<anim name="singDOWN-alt" anim="Animation Guitar" x="25" y="-30" loop="true"/>
-	<anim name="singDOWN" anim="down guitar go vrrrrr" x="25" y="-30"/>
-	<anim name="singUP-alt" anim="guitar xd" x="15" y="60" loop="true"/>
-	<anim name="singUP" anim="Soul BF GUITAR LEFT Black" x="15" y="60"/>
-</character>

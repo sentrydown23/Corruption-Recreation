@@ -1,4 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character y="350" sprite="bf/bf-neuroses-end" flipX="true" isPlayer="true" icon="bf" color="#31B0D1">
-	<anim name="ohnoes" anim="bf got no cock"/>
-</character>

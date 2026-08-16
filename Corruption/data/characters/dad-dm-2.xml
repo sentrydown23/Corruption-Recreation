@@ -1,8 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character sprite="dad/deathmatch/dad-2" icon="dad-dm-2" color="#D41F35">
-	<anim name="idle" anim="Dad idle dance"/>
-	<anim name="singUP" anim="Dad Sing note UP" x="-9" y="45"/>
-	<anim name="singRIGHT" anim="Dad Sing Note LEFT" x="-3" y="42"/>
-	<anim name="singLEFT" anim="dad sing note right" x="-9" y="26"/>
-	<anim name="singDOWN" anim="Dad Sing Note DOWN" x="2" y="-19"/>
-</character>

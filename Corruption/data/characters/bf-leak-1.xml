@@ -1,6 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character y="350" sprite="bf/bf-leak-1" flipX="true" isPlayer="true" icon="bf" color="#31B0D1">
-	<anim name="idle" anim="BF idle dance" fps="30"/>
-	<anim name="moment" anim="BF Idle moment" x="-20" y="35"/>
-	<anim name="yeet" anim="BF Escape moment" x="-123" y="39" loop="true"/>
-</character>
