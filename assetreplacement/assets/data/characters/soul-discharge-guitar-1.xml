@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-270" sprite="soul/soul-discharge-guitar-1" camx="100" icon="soul" color="#000000">
+	<anim name="shredit" anim="full animation" fps="22"/>
+</character>

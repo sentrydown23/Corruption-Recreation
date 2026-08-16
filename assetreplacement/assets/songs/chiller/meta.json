@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "spooky3",
+	"color": "#223344",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Chiller",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 175
+}

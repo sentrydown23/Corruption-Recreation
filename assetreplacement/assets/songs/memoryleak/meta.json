@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "soul",
+	"color": "#000000",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "MEMORY // LEAK",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 200
+}

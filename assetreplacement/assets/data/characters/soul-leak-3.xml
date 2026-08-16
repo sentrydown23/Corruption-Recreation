@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="-270" sprite="soul/soul-leak-punch" camx="100" icon="soul" color="#000000">
+	<anim name="charge" anim="punch charge" loop="true" indices="0..14"/>
+	<anim name="attack" anim="punch"/>
+</character>

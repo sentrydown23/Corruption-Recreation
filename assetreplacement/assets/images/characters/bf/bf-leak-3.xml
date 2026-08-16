@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bffly2.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BFs down0000" x="0" y="0" width="391" height="371" frameX="-2" frameY="0" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0001" x="0" y="0" width="391" height="371" frameX="-2" frameY="0" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0002" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0003" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0004" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0005" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0006" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0007" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0008" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0009" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs down0010" x="391" y="0" width="395" height="365" frameX="0" frameY="-1" frameWidth="395" frameHeight="371"/>
+	<SubTexture name="BFs idle0000" x="786" y="0" width="397" height="369" frameX="-12" frameY="-8" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0001" x="1183" y="0" width="400" height="370" frameX="-8" frameY="-5" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0002" x="1183" y="0" width="400" height="370" frameX="-8" frameY="-5" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0003" x="1583" y="0" width="406" height="371" frameX="-2" frameY="-4" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0004" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0005" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0006" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0007" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0008" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0009" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0010" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0011" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0012" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0013" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs idle0014" x="1989" y="0" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs left0000" x="2397" y="0" width="403" height="375" frameX="-1" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0001" x="2397" y="0" width="403" height="375" frameX="-1" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0002" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0003" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0004" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0005" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0006" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0007" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0008" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0009" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs left0010" x="2800" y="0" width="408" height="371" frameX="0" frameY="0" frameWidth="408" frameHeight="375"/>
+	<SubTexture name="BFs other idle0000" x="3208" y="0" width="397" height="369" frameX="-12" frameY="-8" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0001" x="3605" y="0" width="400" height="370" frameX="-8" frameY="-5" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0002" x="0" y="375" width="400" height="370" frameX="-8" frameY="-5" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0003" x="400" y="375" width="406" height="371" frameX="-2" frameY="-4" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0004" x="806" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0005" x="1214" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0006" x="806" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0007" x="1214" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0008" x="806" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0009" x="1214" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0010" x="806" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0011" x="1214" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0012" x="806" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0013" x="1214" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs other idle0014" x="806" y="375" width="408" height="375" frameX="0" frameY="0" frameWidth="409" frameHeight="377"/>
+	<SubTexture name="BFs right0000" x="1622" y="375" width="406" height="378" frameX="0" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0001" x="1622" y="375" width="406" height="378" frameX="0" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0002" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0003" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0004" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0005" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0006" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0007" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0008" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0009" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs right0010" x="2028" y="375" width="404" height="384" frameX="-8" frameY="0" frameWidth="412" frameHeight="384"/>
+	<SubTexture name="BFs up0000" x="2432" y="375" width="378" height="401" frameX="0" frameY="-3" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0001" x="2432" y="375" width="378" height="401" frameX="0" frameY="-3" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0002" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0003" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0004" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0005" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0006" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0007" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0008" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0009" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+	<SubTexture name="BFs up0010" x="2810" y="375" width="375" height="412" frameX="-3" frameY="0" frameWidth="378" frameHeight="412"/>
+</TextureAtlas>

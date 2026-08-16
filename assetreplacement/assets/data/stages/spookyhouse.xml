@@ -1,0 +1,24 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1.05" name="spooky" folder="stages/spookyhouse/" startCamPosY="400" startCamPosX="600">
+	<sprite name="bg1" x="-200" y="-100" sprite="halloween1" anim="idle" type="none" scale="1.05">
+		<anim name="idle" anim="halloweem bg0" type="loop" />
+		<anim name="lightning" anim="halloweem bg lightning strike" loop="false"/>
+	</sprite>
+
+	<sprite name="bg2" x="-200" y="-100" sprite="halloween2" anim="idle" type="none" scale="1.05">
+		<anim name="idle" anim="halloweem bg0" type="loop" />
+		<anim name="lightning" anim="halloweem bg lightning strike" loop="false"/>
+	</sprite>
+
+	<sprite name="bg3" x="-200" y="-100" sprite="halloween3" anim="idle" type="none" scale="1.05">
+		<anim name="idle" anim="halloweem bg0" type="loop" />
+		<anim name="lightning" anim="halloweem bg lightning strike" loop="false"/>
+	</sprite>
+
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+
+
+	<ratings x="600" y="500"/>
+</stage>

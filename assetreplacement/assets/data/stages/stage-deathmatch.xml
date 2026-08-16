@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="1000" startCamPosY="600" folder="stages/stage2/deathmatch/" zoom="0.9" name="stage-deathmatch">
+	<sprite x="-600" scroll="0.7" sprite="stageeyes" y="-200" name="eyes"/>
+
+	<sprite x="-600" scroll="0.9" sprite="stageback" y="-200" name="bg">
+		<anim name="idle" anim="DeathmatchStage" loop="true"/>
+	</sprite>
+
+	<sprite x="-600" scroll="0.9" sprite="stagefront" y="600" name="stageFront"/>
+	<girlfriend/>
+	<boyfriend/>
+	<dad/>
+	<sprite x="-500" scroll="1.3" sprite="stagecurtains" y="-300" name="stageCurtains"/>
+
+	<ratings x="600" y="400"/>
+</stage>

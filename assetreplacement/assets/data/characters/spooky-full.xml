@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="200" sprite="spooky/spooky-full" isPlayer="true" icon="spookyfull" color="#E62145">
+	<anim name="idle" anim="spooky dance idle" loop="true"/>
+	<anim name="singDOWN" anim="spooky DOWN note" x="-15" y="-140"/>
+	<anim name="singLEFT" anim="spooky sing right" x="35" y="-15"/>
+	<anim name="singRIGHT" anim="note sing left" x="-100" y="-20"/>
+	<anim name="singUP" anim="spooky UP NOTE" x="-50" y="20"/>
+</character>

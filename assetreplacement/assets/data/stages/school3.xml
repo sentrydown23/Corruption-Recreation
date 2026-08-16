@@ -1,0 +1,28 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" folder="stages/school2/thorns" startCamPosY="550" startCamPosX="600">
+	<use-extension script="pixel"/>
+
+	<sprite name="bgSky1" x="-12" y="0" sprite="weebSky1" antialiasing="false" scale="6" scroll="0.1" updateHitbox="true"/>
+	<sprite name="bgSky2" x="-12" y="0" sprite="weebSky2" antialiasing="false" scale="6" scroll="0.1" updateHitbox="true"/>
+	<sprite name="bgSchool1" x="-216" y="0" sprite="weebSchool1" antialiasing="false" scale="6" scrollx="0.6" scrolly="0.9" updateHitbox="true"/>
+	<sprite name="bgSchool2" x="-216" y="0" sprite="weebSchool2" antialiasing="false" scale="6" scrollx="0.6" scrolly="0.9" updateHitbox="true"/>
+	<sprite name="bgStreet1" x="-204" y="0" sprite="weebStreet1" antialiasing="false" scale="6" scroll="0.95" updateHitbox="true"/>
+	<sprite name="bgStreet2" x="-204" y="0" sprite="weebStreet2" antialiasing="false" scale="6" scroll="0.95" updateHitbox="true"/>
+	<sprite name="fgTrees1" x="-30" y="130" sprite="weebTreesBack1" antialiasing="false" scale="4.797" scroll="0.9" updateHitbox="true"/>
+	<sprite name="fgTrees2" x="-30" y="130" sprite="weebTreesBack2" antialiasing="false" scale="4.797" scroll="0.9" updateHitbox="true"/>
+	<sprite name="bgTrees" x="-590" y="-800" sprite="weebTrees" antialiasing="false" scale="5.102" scroll="0.85" updateHitbox="true" type="loop">
+		<anim name="trees" anim="trees" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19" fps="12" loop="true"/>
+	</sprite>
+
+	<high-memory>
+		<sprite name="treeLeaves1" x="-200" y="-40" sprite="petals1" antialiasing="false" scale="6" scroll="0.85" updateHitbox="true" type="loop"/>
+		<sprite name="treeLeaves2" x="-200" y="-40" sprite="petals2" antialiasing="false" scale="6" scroll="0.85" updateHitbox="true" type="loop"/>
+	</high-memory>
+
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+
+
+	<ratings x="600" y="500"/>
+</stage>

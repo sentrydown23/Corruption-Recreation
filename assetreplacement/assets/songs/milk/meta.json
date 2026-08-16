@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#FC96D5",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "mom2",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "M.I.L.K.",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 160
+}

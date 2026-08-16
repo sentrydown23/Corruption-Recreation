@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" folder="stages/school2/roots" startCamPosY="550" startCamPosX="600">
+	<use-extension script="pixel"/>
+
+	<sprite name="bg1" x="400" y="200" sprite="EvilSchool" antialiasing="false" scale="6" scrollx="0.8" scrolly="0.9" type="loop">
+		<anim name="Normal" anim="normal" loop="true" fps="24"/>.
+	</sprite>
+	
+	<sprite name="bg2" x="400" y="200" sprite="EvilSchool" antialiasing="false" scale="6" scrollx="0.8" scrolly="0.9" type="loop">
+		<anim name="Animated" anim="background 2 instance 10" loop="true" fps="24"/>.
+	</sprite>
+
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+
+
+	<ratings x="600" y="500"/>
+</stage>

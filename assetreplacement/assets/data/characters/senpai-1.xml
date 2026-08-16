@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="360" sprite="senpai/senpai-1" scale="6" antialiasing="false" camx="100" camy="87" icon="senpai" color="#FFAA6F" interval="2">
+	<anim name="idle" anim="Senpai Idle instance" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="SENPAI LEFT NOTE" x="4" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="SENPAI DOWN NOTE" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="SENPAI UP NOTE" x="0" y="6" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="SENPAI RIGHT NOTE" x="0" y="0" fps="24" loop="false"/>
+</character>

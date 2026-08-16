@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" folder="stages/screen" name="mind-screen" startCamPosX="600" startCamPosY="400">
+	<sprite x="-95" scroll="0.8" sprite="tormentor/bgGlow" y="48" type="none" scalex="1.4" scaley="1.20" name="bg"/>
+
+	<sprite x="5" scroll="0.8" sprite="tv" y="-198" scale="0.98" name="tv" type="loop">
+		<anim name="idle" anim="Tormentor Static" fps="24" loop="true"/>
+	</sprite>
+
+	<girlfriend/>
+	<dad/>
+	<boyfriend/>
+
+	<ratings x="550" y="550"/>
+</stage>

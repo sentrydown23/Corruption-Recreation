@@ -1,0 +1,27 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="hating-simulator">
+	<!-- All characters -->
+	<char name="senpai" char="senpai" position="left" />
+	<char name="pixelBf" char="pixelBf" position="right" />
+
+	<!-- Lines -->
+	<line char="senpai" changeMusic="pixel/Lunchbox">
+		Ah, a new fair maiden has come in search of true love!
+	</line>
+
+	<line char="pixelBf">
+		Beep bo bop
+	</line>
+
+	<line char="senpai">
+		A serenade between gentlemen shall decide where her beautiful heart shall reside.
+	</line>
+
+	<line char="pixelBf">
+		void StartTransferal(Soul bf_soul){ switch (admin) { case "user": admin == "???" } GrantOwnership(admin) Console.Write("You are next.") } hawoidjoiawdjowajdiojawidjawodijwoaoiwdjoiawdjwjdoaidjw
+	</line>
+
+	<line char="senpai">
+		...
+	</line>
+</dialogue>

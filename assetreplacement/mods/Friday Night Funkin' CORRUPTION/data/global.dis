@@ -1,0 +1,401 @@
+import flixel.group.FlxTypedSpriteGroup;
+
+static var hasSeenTitle:Bool = false;
+
+static var showAchievement:Bool = false;
+static var achievementToUnlock:String = "";
+
+// deprecated version of global.hx
+
+static var achievements:Array<Dynamic> = [
+    {
+        saveKey: "ach_low_health",
+        title: "MUST CONTINUE",
+        desc: "Even as your vision fades, your mission remains the same.",
+        icon: "bf-corrupted",
+        isLosing: true
+    },
+    {
+        saveKey: "ach_death",
+        title: "GAME OVER",
+        desc: "You lose.",
+        icon: "bf-corrupted",
+        isLosing: true
+    },
+    {
+        saveKey: "ach_high_combo",
+        title: "HIGH COMBO",
+        desc: "Achieved a Combo of 200",
+        icon: "bf-corrupted",
+        isLosing: false
+    },
+
+
+    {
+        saveKey: "ach_welcome",
+        title: "CORRUPTION",
+        desc: "Take back your life.",
+        icon: "bf",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_intro",
+        title: "HOLY ANIMATION",
+        desc: "What is this, an Anime!?",
+        icon: "bf",
+        isLosing: true
+    },
+
+
+    // ======================= Week 1 =======================
+    // PICO
+    {
+        saveKey: "ach_pico_complete",
+        title: "PICO",
+        desc: "How have you been, friend?",
+        icon: "pico1",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_pico_fc",
+        title: "PICO FC",
+        desc: "Achieve a Full Combo on Pico",
+        icon: "pico1",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_pico_pfc",
+        title: "PICO PFC",
+        desc: "Achieve a Perfect Full Combo on Pico",
+        icon: "pico1",
+        isLosing: true
+    },
+    
+    // PHILLY
+    {
+        saveKey: "ach_philly_complete",
+        title: "PHILLY",
+        desc: "He has to be. . .",
+        icon: "pico2",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_philly_fc",
+        title: "PHILLY FC",
+        desc: "Achieve a Full Combo on Philly",
+        icon: "pico2",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_philly_pfc",
+        title: "PHILLY PFC",
+        desc: "Achieve a Perfect Full Combo on Philly",
+        icon: "pico2",
+        isLosing: true
+    },
+    {
+        saveKey: "ach_philly_nonote",
+        title: "TOO MUCH WORK",
+        desc: "Play your own damn notes",
+        icon: "pico2",
+        isLosing: false
+    },
+
+    // FULL CLIP
+    {
+        saveKey: "ach_fullclip_complete",
+        title: "FULL CLIP",
+        desc: "You couldn't stop it.",
+        icon: "pico3",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_fullclip_fc",
+        title: "FULL CLIP FC",
+        desc: "Achieve a Full Combo on Full Clip",
+        icon: "pico3",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_fullclip_pfc",
+        title: "FULL CLIP PFC",
+        desc: "Achieve a Perfect Full Combo on Full Clip",
+        icon: "pico3",
+        isLosing: true
+    },
+
+
+    // ======================= Week 2 =======================
+    // Spookeez
+    {
+        saveKey: "ach_spookeez_complete",
+        title: "SPOOKY MONTH!",
+        desc: "How innocent you are.",
+        icon: "spooky",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_spookeez_fc",
+        title: "Spookeez FC",
+        desc: "Achieve a Full Combo on Spookeez",
+        icon: "spooky",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_spookeez_pfc",
+        title: "Spookeez PFC",
+        desc: "Achieve a Perfect Full Combo on Spookeez",
+        icon: "spooky",
+        isLosing: true
+    },
+    
+    // SOUTH
+    {
+        saveKey: "ach_south_complete",
+        title: "SOUTH",
+        desc: "Almost there.",
+        icon: "spooky2",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_south_fc",
+        title: "SOUTH FC",
+        desc: "Achieve a Full Combo on South",
+        icon: "spooky2",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_south_pfc",
+        title: "SOUTH PFC",
+        desc: "Achieve a Perfect Full Combo on South",
+        icon: "spooky2",
+        isLosing: true
+    },
+
+    // CHILLER
+    {
+        saveKey: "ach_chiller_complete",
+        title: "CHILLER",
+        desc: "Best season of the year.",
+        icon: "spooky3",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_chiller_fc",
+        title: "CHILLER FC",
+        desc: "Achieve a Full Combo on Chiller",
+        icon: "spooky3",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_chiller_pfc",
+        title: "CHILLER PFC",
+        desc: "Achieve a Perfect Full Combo on Chiller",
+        icon: "spooky3",
+        isLosing: true
+    },
+    
+
+    // ======================= Week 3 =======================
+    // SPOOKEEZ
+    {
+        saveKey: "ach_spookeez_complete",
+        title: "SPOOKY MONTH!",
+        desc: "How innocent you are.",
+        icon: "spooky",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_spookeez_fc",
+        title: "Spookeez FC",
+        desc: "Achieve a Full Combo on Spookeez",
+        icon: "spooky",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_spookeez_pfc",
+        title: "Spookeez PFC",
+        desc: "Achieve a Perfect Full Combo on Spookeez",
+        icon: "spooky",
+        isLosing: true
+    },
+
+    // SOUTH
+    {
+        saveKey: "ach_south_complete",
+        title: "SOUTH",
+        desc: "Almost there.",
+        icon: "spooky2",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_south_fc",
+        title: "SOUTH FC",
+        desc: "Achieve a Full Combo on South",
+        icon: "spooky2",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_south_pfc",
+        title: "SOUTH PFC",
+        desc: "Achieve a Perfect Full Combo on South",
+        icon: "spooky2",
+        isLosing: true
+    },
+
+    // CHILLER
+    {
+        saveKey: "ach_chiller_complete",
+        title: "CHILLER",
+        desc: "Best season of the year.",
+        icon: "spooky3",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_chiller_fc",
+        title: "CHILLER FC",
+        desc: "Achieve a Full Combo on Chiller",
+        icon: "spooky3",
+        isLosing: false
+    },
+    {
+        saveKey: "ach_chiller_pfc",
+        title: "CHILLER PFC",
+        desc: "Achieve a Perfect Full Combo on Chiller",
+        icon: "spooky3",
+        isLosing: true
+    }
+];
+
+function new() {
+    if (FlxG.save != null && FlxG.save.data != null) {
+        if (FlxG.save.data.disParticles == null)
+            FlxG.save.data.disParticles = true;
+
+        if (FlxG.save.data.kadearrows == null)
+            FlxG.save.data.kadearrows = true;
+
+        if (FlxG.save.data.vigtoggle == null)
+            FlxG.save.data.vigtoggle = true;
+
+        if (FlxG.save.data.forcefull == null)
+            FlxG.save.data.forcefull = false;
+    }
+}
+
+function update(elapsed:Float) {
+    if (FlxG.save == null || FlxG.save.data == null) return;
+
+    if (showAchievement) {
+        showAchievement = false;
+        triggerAchievementByKey(achievementToUnlock);
+    } else if (FlxG.save.data.showAchievement == true) {
+        FlxG.save.data.showAchievement = false;
+        triggerAchievementByKey(FlxG.save.data.achievementToUnlock);
+    }
+}
+
+function triggerAchievementByKey(key:String) {
+    for (ach in achievements) {
+        if (ach.saveKey == key) {
+            var losingState:Bool = ach.isLosing == true;
+            showAchievementPopup(ach.title, ach.desc, ach.icon, losingState);
+            break;
+        }
+    }
+}
+
+function showAchievementPopup(titleText:String, descText:String, iconName:String, isLosing:Bool = false) {
+    var boxWidth:Float = 420;
+    var boxHeight:Float = 90;
+    var startX:Float = (FlxG.width - boxWidth) / 2;
+
+    var popup = new FlxSpriteGroup(startX, -boxHeight - 20);
+
+    var bg = new FlxSprite().makeGraphic(Std.int(boxWidth), Std.int(boxHeight), 0xFF000000);
+    bg.alpha = 0.3;
+    popup.add(bg);
+
+    var title = new FlxText(15, 12, boxWidth - 110, titleText);
+    title.setFormat(null, 16, 0xFFFFFFFF, "left");
+    popup.add(title);
+
+    var desc = new FlxText(15, 38, boxWidth - 110, descText);
+    desc.setFormat(null, 12, 0xCCCCCC, "left");
+    popup.add(desc);
+
+    var icon = new HealthIcon(iconName, false);
+
+    if (isLosing) {
+        if (icon.animation.getByName("losing") != null) {
+            icon.animation.play("losing");
+        } else if (icon.animation.curAnim != null) {
+            icon.animation.curAnim.curFrame = 1;
+        }
+    }
+
+    icon.scale.set(0.6, 0.6);
+    icon.updateHitbox();
+    icon.x = bg.width - icon.width - 15;
+    icon.y = (bg.height - icon.height) / 2;
+    popup.add(icon);
+
+    var cam = new FlxCamera();
+    cam.bgColor = 0x00000000;
+    FlxG.cameras.add(cam, false);
+    popup.cameras = [cam];
+
+    var soundAsset = Paths.sound('achievement');
+    if (soundAsset != null) {
+        FlxG.sound.play(soundAsset, 0.7);
+    }
+
+    FlxG.state.add(popup);
+
+    FlxTween.tween(popup, {y: 20}, 0.5, {
+        ease: FlxEase.backOut,
+        onComplete: function(twn:FlxTween) {
+            FlxTween.tween(popup, {y: 20}, 2.5, {
+                onComplete: function(twn:FlxTween) {
+                    FlxTween.tween(popup, {y: -boxHeight - 20}, 0.5, {
+                        ease: FlxEase.backIn,
+                        onComplete: function(twn:FlxTween) {
+                            popup.destroy();
+                            FlxG.cameras.remove(cam, true);
+                        }
+                    });
+                }
+            });
+        }
+    });
+}
+
+/* all achievement save data for reference
+-- prefix
+FlxG.save.data.ach_
+-- 
+
+(Special)
+    welcome
+    intro
+(Special)
+
+
+(Song-Wide)
+    low_health
+    death
+    high_combo
+(Song-Wide)
+
+---------------------
+
+(Song-Specific)
+    (PICO)
+        pico_complete
+        pico_fc
+        pico_pfc
+    (PICO)
+(Song-Specific)
+
+
+*/

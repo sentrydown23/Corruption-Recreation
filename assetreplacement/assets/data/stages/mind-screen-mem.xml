@@ -1,0 +1,40 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="600" startCamPosY="500" folder="stages/screen/" zoom="0.7" name="mind-screen-mem">
+	<sprite x="-720" scroll="0.1" sprite="memoryleak/bg" y="-1670" type="none" scale="1.3" name="bg1"/>
+	<sprite x="-720" scroll="0.1" sprite="memoryleak/ground" y="-1667" type="none" scale="1.3" name="ground1"/>
+	<sprite x="-720" scroll="0.1" sprite="memoryleak/ground2" y="-1715" type="none" scale="1.3" name="ground2"/>
+
+	<sprite x="-718" scroll="0.1" sprite="memoryleak/sun" y="-1670" type="none" scale="1.3" name="sun"/>
+
+	<sprite x="-363" scroll="0.1" sprite="memoryleak/water" y="342" alpha="0.1" scalex="2" scaley="0.77" name="bgWater">
+		<anim name="Water" anim="Water" loop="true"/>
+	</sprite>
+
+	<sprite x="-1615" scroll="0" sprite="memoryleak/bg2" y="-1460" type="none" scale="1.7" name="bg2"/>
+	<sprite x="-1650" scroll="0.1" sprite="memoryleak/sunshine" y="-1610" type="none" scale="1.7" name="sunshine"/>
+	<sprite x="-1155" scroll="0.1" sprite="memoryleak/star_gf" y="-605" type="none" scale="2.5" name="star1"/>
+	<sprite x="-1050" scroll="0.1" sprite="memoryleak/star_pico" y="-620" type="none" scale="2.5" name="star2"/>
+	<sprite x="-1125" scroll="0.1" sprite="memoryleak/star_bf" y="-590" type="none" scale="2.5" name="star3"/>
+	<sprite x="-1615" scroll="0" sprite="memoryleak/cs2" y="-1840" type="none" scale="1.7" name="cs2"/>
+		
+
+	<sprite x="-100" sprite="memoryleak/glass" y="-68" scale="1.11" name="Glass">
+	<anim name="Break" anim="break" loop="false" fps="19"/>
+	</sprite>
+
+	<sprite x="150" sprite="memoryleak/explosion" y="17" scale="2" name="Explosion">
+	<anim name="Boom" anim="Shockwave" loop="false" fps="42"/>
+	</sprite>
+
+	<sprite x="-688" sprite="memoryleak/platform-1" y="-322" type="none" name="platform1"/>
+	<sprite x="-688" sprite="memoryleak/platform-2" y="-322" type="none" name="platform2"/>
+
+	<girlfriend/>
+	<boyfriend x="870"/>
+	<dad x="-100"/>
+
+	<ratings x="550" y="-3500"/>
+
+	<sprite x="-980" scroll="0" sprite="memoryleak/transW" y="-8000" type="none" scale="1.8" name="transW"/>
+	<sprite scroll="0" sprite="memoryleak/transW2" y="-7000" type="none" scale="4" name="transW2"/>
+</stage>

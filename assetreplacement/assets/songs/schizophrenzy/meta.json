@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#FC96D5",
+	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard"
+	],
+	"icon": "mom3",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Schizophrenzy",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 136.66
+}

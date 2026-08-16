@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character y="350" sprite="bf/bf-leak-punched" flipX="true" isPlayer="true" icon="bf" color="#31B0D1" scale="1.8">
+	<anim name="youch" anim="Caiditoisinmybasement" fps="65"/>
+</character>
