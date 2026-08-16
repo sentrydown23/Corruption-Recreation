@@ -1,2 +1,10 @@
 # Installation
-- Simply unzip the release and run Corruption.exe!
+- Unzip and put inside Codename Engine mod folder
+
+
+
+
+
+
+
+# THIS RELEASE IS DEPRECATED, I AM KEEPING IT HERE FOR LEGACY SAKE, BUT IT IS CONSIDERED OBSOLETE IN FAVOR OF THE SOURCE CODED VERSION
