@@ -5,7 +5,7 @@ var isBreathing:Bool = false;
 var tweenAlpha:Float = 0.3;
 var otherLayerAlpha:Float = 0.7;
 
-if (Options.vigtoggle == false) {
+if (Options.vigtoggle == true) {
 function create() {
     vin1 = new FlxSprite();
     vin1.loadGraphic(Paths.image("stages/screen/vin1"));

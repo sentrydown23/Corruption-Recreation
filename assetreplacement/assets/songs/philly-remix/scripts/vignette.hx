@@ -8,7 +8,7 @@ var breathAlpha:Float = 0.8;
 var isBreathing:Bool = false;
 
 
-if (Options.vigtoggle == false) {
+if (Options.vigtoggle == true) {
 function postCreate() {
 
     createVignette();

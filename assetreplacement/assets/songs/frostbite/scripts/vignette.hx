@@ -2,7 +2,7 @@ var vigLayers:Array<FlxSprite> = [];
 var breatheTween:FlxTween;
 var isBreathing:Bool = false;
 
-if (Options.vigtoggle == false) {
+if (Options.vigtoggle == true) {
 function postCreate() {
 
     // Create 5 layers cleanly using a loop

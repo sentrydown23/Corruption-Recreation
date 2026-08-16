@@ -9,7 +9,7 @@ var isBreathing:Bool = false;
 
 var tweenAlpha:Float = 0.3;
 
-if (Options.vigtoggle == false) {
+if (Options.vigtoggle == true) {
 function create() {
     for (i in 1...2) {
         var vig:FlxSprite = new FlxSprite();

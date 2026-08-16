@@ -16,7 +16,7 @@ var isLowHealthShowing:Bool = false;
 
 var canTickHurt:Bool = true;
 var tickCooldown:Float = 0.2;
-if(Options.vigtoggle == false) {
+if(Options.vigtoggle == true) {
 function postCreate() {
     camVIN = new FlxCamera();
     camVIN.bgColor = 0x00000000;
